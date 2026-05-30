@@ -28,10 +28,10 @@ workflows:
         script: |
           cd gym_app/android
           if [ -f build.gradle.kts ]; then
-            perl -i -pe 's/plugins {/plugins {\n    id("com.google.gms.google-services") version "4.4.2" apply false/' build.gradle.kts
-            perl -i -pe 's/plugins {/plugins {\n    id("com.google.gms.google-services")/' app/build.gradle.kts
+            perl -i -pe 's/plugins \{/plugins {\n    id("com.google.gms.google-services") version "4.4.2" apply false/' build.gradle.kts
+            perl -i -pe 's/plugins \{/plugins {\n    id("com.google.gms.google-services") version "4.4.2"/' app/build.gradle.kts
           else
-            perl -i -pe "s/dependencies {/dependencies {\n        classpath 'com.google.gms:google-services:4.4.2'/" build.gradle
+            perl -i -pe "s/dependencies \{/dependencies {\n        classpath 'com.google.gms:google-services:4.4.2'/" build.gradle
             echo "apply plugin: 'com.google.gms.google-services'" >> app/build.gradle
           fi
       - name: Generate firebase_options.dart

@@ -1,0 +1,4011 @@
+[
+  {
+    "name": "Oats (Rolled, Cooked)",
+    "nameAr": "شوفان مطبوخ",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 71,
+    "proteinG": 2.5,
+    "carbsG": 12.0,
+    "fatG": 1.5,
+    "fiberG": 1.7,
+    "sugarG": 0.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "oats",
+      "rolled oats",
+      "oatmeal",
+      "شوفان"
+    ]
+  },
+  {
+    "name": "Oats (Raw)",
+    "nameAr": "شوفان خام",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 389,
+    "proteinG": 16.9,
+    "carbsG": 66.3,
+    "fatG": 6.9,
+    "fiberG": 10.6,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "oats raw",
+      "rolled oats",
+      "شوفان خام"
+    ]
+  },
+  {
+    "name": "Corn Flakes",
+    "nameAr": "كورن فليكس",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 357,
+    "proteinG": 7.5,
+    "carbsG": 84.0,
+    "fatG": 0.4,
+    "fiberG": 2.0,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "corn flakes",
+      "كورن فليكس",
+      "breakfast cereal"
+    ]
+  },
+  {
+    "name": "Granola",
+    "nameAr": "جرانولا",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 471,
+    "proteinG": 10.0,
+    "carbsG": 64.0,
+    "fatG": 20.0,
+    "fiberG": 5.0,
+    "sugarG": 25.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "granola",
+      "جرانولا"
+    ]
+  },
+  {
+    "name": "Rice (Brown, Cooked)",
+    "nameAr": "رز بني مطبوخ",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 111,
+    "proteinG": 2.6,
+    "carbsG": 23.0,
+    "fatG": 0.9,
+    "fiberG": 1.8,
+    "sugarG": 0.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "brown rice",
+      "رز بني",
+      "whole grain rice"
+    ]
+  },
+  {
+    "name": "Pasta (White, Cooked)",
+    "nameAr": "مكرونة بيضاء مطبوخة",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 131,
+    "proteinG": 5.0,
+    "carbsG": 25.0,
+    "fatG": 1.1,
+    "fiberG": 1.8,
+    "sugarG": 0.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pasta",
+      "مكرونة",
+      "spaghetti",
+      "noodles"
+    ]
+  },
+  {
+    "name": "Quinoa (Cooked)",
+    "nameAr": "كينوا مطبوخة",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 120,
+    "proteinG": 4.4,
+    "carbsG": 21.3,
+    "fatG": 1.9,
+    "fiberG": 2.8,
+    "sugarG": 0.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "quinoa",
+      "كينوا"
+    ]
+  },
+  {
+    "name": "White Bread (Commercial)",
+    "nameAr": "خبز أبيض",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 265,
+    "proteinG": 8.0,
+    "carbsG": 49.0,
+    "fatG": 3.2,
+    "fiberG": 2.0,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "white bread",
+      "خبز أبيض",
+      "sandwich bread"
+    ]
+  },
+  {
+    "name": "Whole Wheat Bread",
+    "nameAr": "خبز قمح كامل",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 247,
+    "proteinG": 13.0,
+    "carbsG": 41.0,
+    "fatG": 3.4,
+    "fiberG": 7.0,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "whole wheat bread",
+      "خبز قمح كامل",
+      "whole grain bread"
+    ]
+  },
+  {
+    "name": "Bagel",
+    "nameAr": "بيجل",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 275,
+    "proteinG": 10.0,
+    "carbsG": 53.0,
+    "fatG": 1.5,
+    "fiberG": 1.5,
+    "sugarG": 6.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "bagel",
+      "بيجل"
+    ]
+  },
+  {
+    "name": "English Muffin",
+    "nameAr": "مفن إنجليزي",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 235,
+    "proteinG": 7.7,
+    "carbsG": 46.0,
+    "fatG": 1.8,
+    "fiberG": 2.7,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "english muffin",
+      "مفن"
+    ]
+  },
+  {
+    "name": "Tortilla (Corn)",
+    "nameAr": "تورتييا ذرة",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 218,
+    "proteinG": 5.7,
+    "carbsG": 45.0,
+    "fatG": 2.5,
+    "fiberG": 3.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tortilla",
+      "corn tortilla",
+      "تورتييا"
+    ]
+  },
+  {
+    "name": "Tortilla (Flour)",
+    "nameAr": "تورتييا دقيق",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 300,
+    "proteinG": 8.0,
+    "carbsG": 50.0,
+    "fatG": 7.0,
+    "fiberG": 2.0,
+    "sugarG": 2.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "flour tortilla",
+      "تورتييا دقيق"
+    ]
+  },
+  {
+    "name": "Chicken Breast (Skinless, Cooked)",
+    "nameAr": "صدر دجاج بدون جلد مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 165,
+    "proteinG": 31.0,
+    "carbsG": 0.0,
+    "fatG": 3.6,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chicken breast",
+      "صدر دجاج",
+      "chicken"
+    ]
+  },
+  {
+    "name": "Chicken Thigh (Skinless, Cooked)",
+    "nameAr": "فخذ دجاج بدون جلد مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 209,
+    "proteinG": 26.0,
+    "carbsG": 0.0,
+    "fatG": 11.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chicken thigh",
+      "فخذ دجاج"
+    ]
+  },
+  {
+    "name": "Chicken Drumstick (Cooked)",
+    "nameAr": "ورك دجاج مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 172,
+    "proteinG": 24.0,
+    "carbsG": 0.0,
+    "fatG": 8.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chicken drumstick",
+      "ورك دجاج"
+    ]
+  },
+  {
+    "name": "Chicken Wing (Cooked)",
+    "nameAr": "جناح دجاج مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 203,
+    "proteinG": 24.0,
+    "carbsG": 0.0,
+    "fatG": 12.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chicken wing",
+      "جناح دجاج"
+    ]
+  },
+  {
+    "name": "Beef Sirloin (Lean, Cooked)",
+    "nameAr": "لحم بقر سيرلوين مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 206,
+    "proteinG": 26.0,
+    "carbsG": 0.0,
+    "fatG": 11.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "beef sirloin",
+      "لحم بقر",
+      "steak"
+    ]
+  },
+  {
+    "name": "Beef Ribeye (Cooked)",
+    "nameAr": "ريش آي مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 271,
+    "proteinG": 25.0,
+    "carbsG": 0.0,
+    "fatG": 18.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ribeye",
+      "ريش آي",
+      "beef ribeye"
+    ]
+  },
+  {
+    "name": "Ground Beef (85% Lean, Cooked)",
+    "nameAr": "لحم مفروم 85% مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 260,
+    "proteinG": 25.0,
+    "carbsG": 0.0,
+    "fatG": 17.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ground beef",
+      "لحم مفروم",
+      "minced beef"
+    ]
+  },
+  {
+    "name": "Ground Beef (95% Lean, Cooked)",
+    "nameAr": "لحم مفروم 95% مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 175,
+    "proteinG": 26.0,
+    "carbsG": 0.0,
+    "fatG": 7.5,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "lean ground beef",
+      "لحم مفروم قليل الدسم"
+    ]
+  },
+  {
+    "name": "Beef Liver (Cooked)",
+    "nameAr": "كبد بقر مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 175,
+    "proteinG": 26.0,
+    "carbsG": 5.0,
+    "fatG": 5.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "beef liver",
+      "كبد بقر"
+    ]
+  },
+  {
+    "name": "Lamb Chop (Cooked)",
+    "nameAr": "خروف مشوي",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 250,
+    "proteinG": 25.0,
+    "carbsG": 0.0,
+    "fatG": 16.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "lamb",
+      "خروف",
+      "lamb chop"
+    ]
+  },
+  {
+    "name": "Turkey Breast (Skinless, Cooked)",
+    "nameAr": "صدر ديك رومي مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 135,
+    "proteinG": 30.0,
+    "carbsG": 0.0,
+    "fatG": 1.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "turkey breast",
+      "ديك رومي",
+      "turkey"
+    ]
+  },
+  {
+    "name": "Bacon (Cooked)",
+    "nameAr": "بيكون مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 541,
+    "proteinG": 37.0,
+    "carbsG": 1.0,
+    "fatG": 42.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "bacon",
+      "بيكون"
+    ]
+  },
+  {
+    "name": "Beef Frankfurter (Hot Dog)",
+    "nameAr": "هوت دوج",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 290,
+    "proteinG": 12.0,
+    "carbsG": 3.0,
+    "fatG": 26.0,
+    "fiberG": 0.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "hot dog",
+      "هوت دوج",
+      "frankfurter"
+    ]
+  },
+  {
+    "name": "Salmon (Atlantic, Cooked)",
+    "nameAr": "سلمون أطلنطي مطبوخ",
+    "category": "Fish",
+    "categoryAr": "أسماك",
+    "servingSizeG": 100,
+    "calories": 208,
+    "proteinG": 20.0,
+    "carbsG": 0.0,
+    "fatG": 13.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "salmon",
+      "سلمون",
+      "fish"
+    ]
+  },
+  {
+    "name": "Tuna (Fresh, Cooked)",
+    "nameAr": "تونة طازجة مطبوخة",
+    "category": "Fish",
+    "categoryAr": "أسماك",
+    "servingSizeG": 100,
+    "calories": 130,
+    "proteinG": 28.0,
+    "carbsG": 0.0,
+    "fatG": 1.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tuna fresh",
+      "تونة طازجة"
+    ]
+  },
+  {
+    "name": "Cod (Cooked)",
+    "nameAr": "قد مطبوخ",
+    "category": "Fish",
+    "categoryAr": "أسماك",
+    "servingSizeG": 100,
+    "calories": 96,
+    "proteinG": 21.0,
+    "carbsG": 0.0,
+    "fatG": 1.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cod",
+      "قد",
+      "white fish"
+    ]
+  },
+  {
+    "name": "Tilapia (Cooked)",
+    "nameAr": "بلطي مطبوخ",
+    "category": "Fish",
+    "categoryAr": "أسماك",
+    "servingSizeG": 100,
+    "calories": 128,
+    "proteinG": 26.0,
+    "carbsG": 0.0,
+    "fatG": 2.7,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tilapia",
+      "بلطي"
+    ]
+  },
+  {
+    "name": "Mackerel (Cooked)",
+    "nameAr": "ماكريل مطبوخ",
+    "category": "Fish",
+    "categoryAr": "أسماك",
+    "servingSizeG": 100,
+    "calories": 262,
+    "proteinG": 19.0,
+    "carbsG": 0.0,
+    "fatG": 20.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mackerel",
+      "ماكريل"
+    ]
+  },
+  {
+    "name": "Shrimp (Cooked)",
+    "nameAr": "جمبري مطبوخ",
+    "category": "Fish",
+    "categoryAr": "أسماك",
+    "servingSizeG": 100,
+    "calories": 99,
+    "proteinG": 24.0,
+    "carbsG": 0.0,
+    "fatG": 0.3,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "shrimp",
+      "جمبري",
+      "prawn"
+    ]
+  },
+  {
+    "name": "Whole Milk (3.25%)",
+    "nameAr": "حليب كامل الدسم",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 61,
+    "proteinG": 3.2,
+    "carbsG": 4.8,
+    "fatG": 3.3,
+    "fiberG": 0.0,
+    "sugarG": 4.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "whole milk",
+      "حليب كامل الدسم",
+      "milk"
+    ]
+  },
+  {
+    "name": "Skim Milk (0.1%)",
+    "nameAr": "حليب منزوع الدسم",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 34,
+    "proteinG": 3.4,
+    "carbsG": 5.0,
+    "fatG": 0.1,
+    "fiberG": 0.0,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "skim milk",
+      "حليب منزوع الدسم",
+      "fat free milk"
+    ]
+  },
+  {
+    "name": "Semi-Skimmed Milk (1.5%)",
+    "nameAr": "حليب قليل الدسم",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 47,
+    "proteinG": 3.3,
+    "carbsG": 4.9,
+    "fatG": 1.5,
+    "fiberG": 0.0,
+    "sugarG": 4.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "semi skimmed milk",
+      "حليب قليل الدسم"
+    ]
+  },
+  {
+    "name": "Greek Yogurt (Plain, Full Fat)",
+    "nameAr": "زبادي يوناني كامل الدسم",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 97,
+    "proteinG": 9.0,
+    "carbsG": 3.6,
+    "fatG": 5.0,
+    "fiberG": 0.0,
+    "sugarG": 3.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "greek yogurt",
+      "زبادي يوناني"
+    ]
+  },
+  {
+    "name": "Greek Yogurt (Plain, Nonfat)",
+    "nameAr": "زبادي يوناني منزوع الدسم",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 59,
+    "proteinG": 10.0,
+    "carbsG": 3.6,
+    "fatG": 0.4,
+    "fiberG": 0.0,
+    "sugarG": 3.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "greek yogurt nonfat",
+      "زبادي يوناني قليل الدسم"
+    ]
+  },
+  {
+    "name": "Cheddar Cheese",
+    "nameAr": "جبنة شيدر",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 403,
+    "proteinG": 25.0,
+    "carbsG": 1.3,
+    "fatG": 33.0,
+    "fiberG": 0.0,
+    "sugarG": 0.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cheddar",
+      "شيدر",
+      "cheese"
+    ]
+  },
+  {
+    "name": "Mozzarella (Part-skim)",
+    "nameAr": "موزاريلا",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 280,
+    "proteinG": 28.0,
+    "carbsG": 3.0,
+    "fatG": 17.0,
+    "fiberG": 0.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mozzarella",
+      "موزاريلا"
+    ]
+  },
+  {
+    "name": "Parmesan Cheese",
+    "nameAr": "بارميزان",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 431,
+    "proteinG": 38.0,
+    "carbsG": 4.0,
+    "fatG": 29.0,
+    "fiberG": 0.0,
+    "sugarG": 0.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "parmesan",
+      "بارميزان"
+    ]
+  },
+  {
+    "name": "Cream Cheese",
+    "nameAr": "جبنة كريمي",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 350,
+    "proteinG": 6.0,
+    "carbsG": 5.5,
+    "fatG": 35.0,
+    "fiberG": 0.0,
+    "sugarG": 4.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cream cheese",
+      "جبنة كريمي"
+    ]
+  },
+  {
+    "name": "Sour Cream",
+    "nameAr": "كريمة حامضة",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 198,
+    "proteinG": 2.4,
+    "carbsG": 4.6,
+    "fatG": 19.0,
+    "fiberG": 0.0,
+    "sugarG": 4.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "sour cream",
+      "كريمة حامضة"
+    ]
+  },
+  {
+    "name": "Heavy Cream",
+    "nameAr": "كريمة طبخ",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 345,
+    "proteinG": 3.0,
+    "carbsG": 3.0,
+    "fatG": 37.0,
+    "fiberG": 0.0,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "heavy cream",
+      "كريمة طبخ",
+      "whipping cream"
+    ]
+  },
+  {
+    "name": "Butter (Salted)",
+    "nameAr": "زبدة مملحة",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 717,
+    "proteinG": 0.9,
+    "carbsG": 0.1,
+    "fatG": 81.0,
+    "fiberG": 0.0,
+    "sugarG": 0.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "butter salted",
+      "زبدة مملحة"
+    ]
+  },
+  {
+    "name": "Margarine",
+    "nameAr": "سمن نباتي",
+    "category": "Oils",
+    "categoryAr": "زيوت",
+    "servingSizeG": 100,
+    "calories": 717,
+    "proteinG": 0.2,
+    "carbsG": 0.1,
+    "fatG": 81.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "margarine",
+      "سمن نباتي",
+      "butter substitute"
+    ]
+  },
+  {
+    "name": "Almond Milk (Unsweetened)",
+    "nameAr": "حليب لوز غير محلى",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 17,
+    "proteinG": 0.6,
+    "carbsG": 0.3,
+    "fatG": 1.1,
+    "fiberG": 0.0,
+    "sugarG": 0.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "almond milk",
+      "حليب لوز"
+    ]
+  },
+  {
+    "name": "Soy Milk",
+    "nameAr": "حليب صويا",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 54,
+    "proteinG": 3.3,
+    "carbsG": 3.0,
+    "fatG": 1.8,
+    "fiberG": 0.4,
+    "sugarG": 2.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "soy milk",
+      "حليب صويا",
+      "soya milk"
+    ]
+  },
+  {
+    "name": "Egg (Whole, Hard-Boiled)",
+    "nameAr": "بيض مسلوق",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 155,
+    "proteinG": 13.0,
+    "carbsG": 1.1,
+    "fatG": 10.6,
+    "fiberG": 0.0,
+    "sugarG": 1.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "egg",
+      "بيض",
+      "hard boiled egg"
+    ]
+  },
+  {
+    "name": "Egg White (Cooked)",
+    "nameAr": "بياض البيض مطبوخ",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 52,
+    "proteinG": 11.0,
+    "carbsG": 0.7,
+    "fatG": 0.2,
+    "fiberG": 0.0,
+    "sugarG": 0.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "egg white",
+      "بياض البيض"
+    ]
+  },
+  {
+    "name": "Egg Yolk (Cooked)",
+    "nameAr": "صفار البيض مطبوخ",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 322,
+    "proteinG": 16.0,
+    "carbsG": 3.6,
+    "fatG": 27.0,
+    "fiberG": 0.0,
+    "sugarG": 0.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "egg yolk",
+      "صفار البيض"
+    ]
+  },
+  {
+    "name": "Apple (Raw with Skin)",
+    "nameAr": "تفاح بقشره",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 52,
+    "proteinG": 0.3,
+    "carbsG": 14.0,
+    "fatG": 0.2,
+    "fiberG": 2.4,
+    "sugarG": 10.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "apple",
+      "تفاح"
+    ]
+  },
+  {
+    "name": "Banana (Raw)",
+    "nameAr": "موز طازج",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 89,
+    "proteinG": 1.1,
+    "carbsG": 23.0,
+    "fatG": 0.3,
+    "fiberG": 2.6,
+    "sugarG": 12.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "banana",
+      "موز"
+    ]
+  },
+  {
+    "name": "Orange (Raw)",
+    "nameAr": "برتقال طازج",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 47,
+    "proteinG": 0.9,
+    "carbsG": 12.0,
+    "fatG": 0.1,
+    "fiberG": 2.4,
+    "sugarG": 9.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "orange",
+      "برتقال"
+    ]
+  },
+  {
+    "name": "Grapes (Red or Green)",
+    "nameAr": "عنب أحمر أو أخضر",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 69,
+    "proteinG": 0.7,
+    "carbsG": 18.1,
+    "fatG": 0.2,
+    "fiberG": 0.9,
+    "sugarG": 15.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "grapes",
+      "عنب"
+    ]
+  },
+  {
+    "name": "Strawberries (Raw)",
+    "nameAr": "فراولة طازجة",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 32,
+    "proteinG": 0.7,
+    "carbsG": 7.7,
+    "fatG": 0.3,
+    "fiberG": 2.0,
+    "sugarG": 4.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "strawberries",
+      "فراولة"
+    ]
+  },
+  {
+    "name": "Blueberries (Raw)",
+    "nameAr": "توت أزرق",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 57,
+    "proteinG": 0.7,
+    "carbsG": 14.5,
+    "fatG": 0.3,
+    "fiberG": 2.4,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "blueberries",
+      "توت أزرق"
+    ]
+  },
+  {
+    "name": "Avocado (Raw)",
+    "nameAr": "أفوكادو",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 160,
+    "proteinG": 2.0,
+    "carbsG": 8.5,
+    "fatG": 14.7,
+    "fiberG": 6.7,
+    "sugarG": 0.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "avocado",
+      "أفوكادو"
+    ]
+  },
+  {
+    "name": "Pineapple (Raw)",
+    "nameAr": "أناناس",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 50,
+    "proteinG": 0.5,
+    "carbsG": 13.1,
+    "fatG": 0.1,
+    "fiberG": 1.4,
+    "sugarG": 9.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pineapple",
+      "أناناس"
+    ]
+  },
+  {
+    "name": "Peach (Raw)",
+    "nameAr": "خوخ",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 39,
+    "proteinG": 0.9,
+    "carbsG": 9.5,
+    "fatG": 0.3,
+    "fiberG": 1.5,
+    "sugarG": 8.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "peach",
+      "خوخ"
+    ]
+  },
+  {
+    "name": "Pear (Raw)",
+    "nameAr": "كمثرى",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 57,
+    "proteinG": 0.4,
+    "carbsG": 15.2,
+    "fatG": 0.1,
+    "fiberG": 3.1,
+    "sugarG": 9.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pear",
+      "كمثرى"
+    ]
+  },
+  {
+    "name": "Cherries (Sweet, Raw)",
+    "nameAr": "كرز",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 50,
+    "proteinG": 1.0,
+    "carbsG": 12.2,
+    "fatG": 0.3,
+    "fiberG": 1.6,
+    "sugarG": 8.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cherries",
+      "كرز"
+    ]
+  },
+  {
+    "name": "Watermelon (Raw)",
+    "nameAr": "بطيخ",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 30,
+    "proteinG": 0.6,
+    "carbsG": 7.6,
+    "fatG": 0.2,
+    "fiberG": 0.4,
+    "sugarG": 6.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "watermelon",
+      "بطيخ"
+    ]
+  },
+  {
+    "name": "Kiwi (Raw)",
+    "nameAr": "كيوي",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 61,
+    "proteinG": 1.1,
+    "carbsG": 14.7,
+    "fatG": 0.5,
+    "fiberG": 3.0,
+    "sugarG": 9.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "kiwi",
+      "كيوي"
+    ]
+  },
+  {
+    "name": "Mango (Raw)",
+    "nameAr": "مانجو طازج",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 60,
+    "proteinG": 0.8,
+    "carbsG": 15.0,
+    "fatG": 0.4,
+    "fiberG": 1.6,
+    "sugarG": 13.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mango",
+      "مانجو"
+    ]
+  },
+  {
+    "name": "Papaya (Raw)",
+    "nameAr": "باباي",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 43,
+    "proteinG": 0.5,
+    "carbsG": 10.8,
+    "fatG": 0.3,
+    "fiberG": 1.7,
+    "sugarG": 7.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "papaya",
+      "باباي"
+    ]
+  },
+  {
+    "name": "Raisins (Seedless)",
+    "nameAr": "زبيب",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 299,
+    "proteinG": 3.1,
+    "carbsG": 79.2,
+    "fatG": 0.5,
+    "fiberG": 3.7,
+    "sugarG": 59.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "raisins",
+      "زبيب"
+    ]
+  },
+  {
+    "name": "Broccoli (Cooked)",
+    "nameAr": "بروكلي مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 35,
+    "proteinG": 2.4,
+    "carbsG": 7.2,
+    "fatG": 0.4,
+    "fiberG": 3.3,
+    "sugarG": 1.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "broccoli",
+      "بروكلي"
+    ]
+  },
+  {
+    "name": "Spinach (Cooked)",
+    "nameAr": "سبانخ مطبوخة",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 23,
+    "proteinG": 3.0,
+    "carbsG": 3.8,
+    "fatG": 0.3,
+    "fiberG": 2.4,
+    "sugarG": 0.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "spinach",
+      "سبانخ"
+    ]
+  },
+  {
+    "name": "Kale (Raw)",
+    "nameAr": "كرنب أجعد",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 49,
+    "proteinG": 4.3,
+    "carbsG": 8.8,
+    "fatG": 0.9,
+    "fiberG": 3.6,
+    "sugarG": 2.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "kale",
+      "كرنب أجعد"
+    ]
+  },
+  {
+    "name": "Lettuce (Iceberg, Raw)",
+    "nameAr": "خس",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 14,
+    "proteinG": 0.9,
+    "carbsG": 3.0,
+    "fatG": 0.1,
+    "fiberG": 1.2,
+    "sugarG": 2.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "lettuce",
+      "خس",
+      "iceberg"
+    ]
+  },
+  {
+    "name": "Carrot (Raw)",
+    "nameAr": "جزر طازج",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 41,
+    "proteinG": 0.9,
+    "carbsG": 9.6,
+    "fatG": 0.2,
+    "fiberG": 2.8,
+    "sugarG": 4.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "carrot",
+      "جزر"
+    ]
+  },
+  {
+    "name": "Bell Pepper (Red, Raw)",
+    "nameAr": "فلفل أحمر",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 26,
+    "proteinG": 1.0,
+    "carbsG": 6.0,
+    "fatG": 0.3,
+    "fiberG": 2.1,
+    "sugarG": 4.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "bell pepper",
+      "فلفل أحمر",
+      "red pepper"
+    ]
+  },
+  {
+    "name": "Bell Pepper (Green, Raw)",
+    "nameAr": "فلفل أخضر",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 20,
+    "proteinG": 0.9,
+    "carbsG": 4.6,
+    "fatG": 0.2,
+    "fiberG": 1.7,
+    "sugarG": 2.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "green pepper",
+      "فلفل أخضر"
+    ]
+  },
+  {
+    "name": "Onion (Yellow, Raw)",
+    "nameAr": "بصل أصفر",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 40,
+    "proteinG": 1.1,
+    "carbsG": 9.3,
+    "fatG": 0.1,
+    "fiberG": 1.7,
+    "sugarG": 4.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "onion",
+      "بصل",
+      "yellow onion"
+    ]
+  },
+  {
+    "name": "Garlic (Raw)",
+    "nameAr": "ثوم طازج",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 149,
+    "proteinG": 6.4,
+    "carbsG": 33.0,
+    "fatG": 0.5,
+    "fiberG": 2.1,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "garlic",
+      "ثوم"
+    ]
+  },
+  {
+    "name": "Tomato (Raw)",
+    "nameAr": "طماطم طازجة",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 18,
+    "proteinG": 0.9,
+    "carbsG": 3.9,
+    "fatG": 0.2,
+    "fiberG": 1.2,
+    "sugarG": 2.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tomato",
+      "طماطم"
+    ]
+  },
+  {
+    "name": "Cucumber (Raw)",
+    "nameAr": "خيار طازج",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 15,
+    "proteinG": 0.6,
+    "carbsG": 3.6,
+    "fatG": 0.1,
+    "fiberG": 0.5,
+    "sugarG": 1.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cucumber",
+      "خيار"
+    ]
+  },
+  {
+    "name": "Zucchini (Cooked)",
+    "nameAr": "كوسة مطبوخة",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 15,
+    "proteinG": 1.0,
+    "carbsG": 2.7,
+    "fatG": 0.4,
+    "fiberG": 1.0,
+    "sugarG": 1.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "zucchini",
+      "كوسة"
+    ]
+  },
+  {
+    "name": "Eggplant (Cooked)",
+    "nameAr": "بتنجان مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 35,
+    "proteinG": 0.8,
+    "carbsG": 9.0,
+    "fatG": 0.2,
+    "fiberG": 2.5,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "eggplant",
+      "بتنجان"
+    ]
+  },
+  {
+    "name": "Mushrooms (White, Cooked)",
+    "nameAr": "مشروم مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 28,
+    "proteinG": 2.2,
+    "carbsG": 5.3,
+    "fatG": 0.5,
+    "fiberG": 1.0,
+    "sugarG": 2.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mushrooms",
+      "مشروم"
+    ]
+  },
+  {
+    "name": "Corn (Sweet, Cooked)",
+    "nameAr": "ذرة حلوة مطبوخة",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 96,
+    "proteinG": 3.4,
+    "carbsG": 21.0,
+    "fatG": 1.5,
+    "fiberG": 2.4,
+    "sugarG": 4.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "corn",
+      "ذرة",
+      "sweet corn"
+    ]
+  },
+  {
+    "name": "Peas (Green, Cooked)",
+    "nameAr": "بسلة خضراء مطبوخة",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 84,
+    "proteinG": 5.4,
+    "carbsG": 15.6,
+    "fatG": 0.4,
+    "fiberG": 4.5,
+    "sugarG": 5.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "peas",
+      "بسلة"
+    ]
+  },
+  {
+    "name": "Green Beans (Cooked)",
+    "nameAr": "فاصوليا خضراء مطبوخة",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 35,
+    "proteinG": 1.9,
+    "carbsG": 7.9,
+    "fatG": 0.3,
+    "fiberG": 3.2,
+    "sugarG": 1.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "green beans",
+      "فاصوليا خضراء"
+    ]
+  },
+  {
+    "name": "Cauliflower (Cooked)",
+    "nameAr": "قرنبيط مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 23,
+    "proteinG": 1.8,
+    "carbsG": 4.0,
+    "fatG": 0.5,
+    "fiberG": 2.0,
+    "sugarG": 1.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cauliflower",
+      "قرنبيط"
+    ]
+  },
+  {
+    "name": "Cabbage (Green, Cooked)",
+    "nameAr": "كرنب أخضر مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 23,
+    "proteinG": 1.3,
+    "carbsG": 5.5,
+    "fatG": 0.1,
+    "fiberG": 2.5,
+    "sugarG": 2.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cabbage",
+      "كرنب"
+    ]
+  },
+  {
+    "name": "Asparagus (Cooked)",
+    "nameAr": "هليون مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 20,
+    "proteinG": 2.2,
+    "carbsG": 4.0,
+    "fatG": 0.2,
+    "fiberG": 2.0,
+    "sugarG": 1.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "asparagus",
+      "هليون"
+    ]
+  },
+  {
+    "name": "Potato (Baked, Flesh & Skin)",
+    "nameAr": "بطاطس مشوية",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 93,
+    "proteinG": 2.5,
+    "carbsG": 21.0,
+    "fatG": 0.1,
+    "fiberG": 2.2,
+    "sugarG": 1.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "potato",
+      "بطاطس"
+    ]
+  },
+  {
+    "name": "Sweet Potato (Baked)",
+    "nameAr": "بطاطا حلوة مشوية",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 90,
+    "proteinG": 2.0,
+    "carbsG": 20.7,
+    "fatG": 0.1,
+    "fiberG": 3.3,
+    "sugarG": 6.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "sweet potato",
+      "بطاطا حلوة"
+    ]
+  },
+  {
+    "name": "French Fries (Deep Fried)",
+    "nameAr": "بطاطس مقلية",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 312,
+    "proteinG": 3.4,
+    "carbsG": 38.0,
+    "fatG": 17.0,
+    "fiberG": 3.0,
+    "sugarG": 0.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "french fries",
+      "بطاطس مقلية"
+    ]
+  },
+  {
+    "name": "Almonds (Raw)",
+    "nameAr": "لوز ني",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 579,
+    "proteinG": 21.0,
+    "carbsG": 21.6,
+    "fatG": 50.0,
+    "fiberG": 12.5,
+    "sugarG": 4.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "almonds",
+      "لوز"
+    ]
+  },
+  {
+    "name": "Walnuts (Raw)",
+    "nameAr": "جوز",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 654,
+    "proteinG": 15.0,
+    "carbsG": 13.7,
+    "fatG": 65.0,
+    "fiberG": 6.7,
+    "sugarG": 2.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "walnuts",
+      "جوز"
+    ]
+  },
+  {
+    "name": "Cashews (Raw)",
+    "nameAr": "كاجو",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 553,
+    "proteinG": 18.0,
+    "carbsG": 30.0,
+    "fatG": 44.0,
+    "fiberG": 3.3,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cashews",
+      "كاجو"
+    ]
+  },
+  {
+    "name": "Pistachios (Raw)",
+    "nameAr": "فستق",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 560,
+    "proteinG": 20.0,
+    "carbsG": 27.0,
+    "fatG": 45.0,
+    "fiberG": 10.0,
+    "sugarG": 7.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pistachios",
+      "فستق"
+    ]
+  },
+  {
+    "name": "Peanuts (Roasted, Salted)",
+    "nameAr": "فول سوداني محمص",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 587,
+    "proteinG": 24.0,
+    "carbsG": 21.0,
+    "fatG": 50.0,
+    "fiberG": 8.5,
+    "sugarG": 4.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "peanuts",
+      "فول سوداني"
+    ]
+  },
+  {
+    "name": "Peanut Butter (Smooth)",
+    "nameAr": "زبدة فول سوداني",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 588,
+    "proteinG": 25.0,
+    "carbsG": 20.0,
+    "fatG": 50.0,
+    "fiberG": 6.0,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "peanut butter",
+      "زبدة فول سوداني"
+    ]
+  },
+  {
+    "name": "Sunflower Seeds (Roasted)",
+    "nameAr": "بذر دوار الشمس",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 582,
+    "proteinG": 19.0,
+    "carbsG": 24.0,
+    "fatG": 50.0,
+    "fiberG": 9.0,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "sunflower seeds",
+      "بذر دوار الشمس"
+    ]
+  },
+  {
+    "name": "Flax Seeds (Ground)",
+    "nameAr": "بذر الكتان مطحون",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 534,
+    "proteinG": 18.0,
+    "carbsG": 29.0,
+    "fatG": 42.0,
+    "fiberG": 27.0,
+    "sugarG": 1.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "flax seeds",
+      "بذر الكتان"
+    ]
+  },
+  {
+    "name": "Chia Seeds",
+    "nameAr": "بذور الشيا",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 486,
+    "proteinG": 17.0,
+    "carbsG": 42.0,
+    "fatG": 31.0,
+    "fiberG": 34.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chia seeds",
+      "بذور الشيا"
+    ]
+  },
+  {
+    "name": "Pumpkin Seeds (Roasted)",
+    "nameAr": "بذر قرع محمص",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 559,
+    "proteinG": 30.0,
+    "carbsG": 15.0,
+    "fatG": 49.0,
+    "fiberG": 6.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pumpkin seeds",
+      "بذر قرع"
+    ]
+  },
+  {
+    "name": "Dark Chocolate (70-85% Cocoa)",
+    "nameAr": "شوكولاتة داكنة 70-85%",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 598,
+    "proteinG": 7.8,
+    "carbsG": 46.0,
+    "fatG": 43.0,
+    "fiberG": 11.0,
+    "sugarG": 24.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "dark chocolate",
+      "شوكولاتة داكنة"
+    ]
+  },
+  {
+    "name": "Milk Chocolate",
+    "nameAr": "شوكولاتة بالحليب",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 535,
+    "proteinG": 7.6,
+    "carbsG": 60.0,
+    "fatG": 30.0,
+    "fiberG": 3.4,
+    "sugarG": 52.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "milk chocolate",
+      "شوكولاتة بالحليب"
+    ]
+  },
+  {
+    "name": "White Chocolate",
+    "nameAr": "شوكولاتة بيضاء",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 539,
+    "proteinG": 5.9,
+    "carbsG": 59.0,
+    "fatG": 32.0,
+    "fiberG": 0.0,
+    "sugarG": 59.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "white chocolate",
+      "شوكولاتة بيضاء"
+    ]
+  },
+  {
+    "name": "Potato Chips (Plain)",
+    "nameAr": "شيبس بطاطس",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 536,
+    "proteinG": 7.0,
+    "carbsG": 49.0,
+    "fatG": 35.0,
+    "fiberG": 4.5,
+    "sugarG": 2.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "potato chips",
+      "شيبس"
+    ]
+  },
+  {
+    "name": "Tortilla Chips",
+    "nameAr": "شيبس تورتيلا",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 497,
+    "proteinG": 7.0,
+    "carbsG": 63.0,
+    "fatG": 25.0,
+    "fiberG": 5.0,
+    "sugarG": 2.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tortilla chips",
+      "شيبس تورتيلا"
+    ]
+  },
+  {
+    "name": "Pretzels (Hard)",
+    "nameAr": "بريتزل",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 383,
+    "proteinG": 10.0,
+    "carbsG": 80.0,
+    "fatG": 2.9,
+    "fiberG": 3.0,
+    "sugarG": 2.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pretzels",
+      "بريتزل"
+    ]
+  },
+  {
+    "name": "Popcorn (Air-Popped)",
+    "nameAr": "فشار بدون زيت",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 387,
+    "proteinG": 12.0,
+    "carbsG": 78.0,
+    "fatG": 4.5,
+    "fiberG": 15.0,
+    "sugarG": 0.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "popcorn",
+      "فشار"
+    ]
+  },
+  {
+    "name": "Popcorn (Butter, Movie Theater)",
+    "nameAr": "فشار بالزبدة",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 550,
+    "proteinG": 8.0,
+    "carbsG": 50.0,
+    "fatG": 35.0,
+    "fiberG": 8.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "popcorn butter",
+      "فشار بالزبدة"
+    ]
+  },
+  {
+    "name": "Olive Oil (Extra Virgin)",
+    "nameAr": "زيت زيتون بكر ممتاز",
+    "category": "Oils",
+    "categoryAr": "زيوت",
+    "servingSizeG": 100,
+    "calories": 884,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 100.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "olive oil",
+      "زيت زيتون"
+    ]
+  },
+  {
+    "name": "Coconut Oil",
+    "nameAr": "زيت جوز الهند",
+    "category": "Oils",
+    "categoryAr": "زيوت",
+    "servingSizeG": 100,
+    "calories": 862,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 100.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "coconut oil",
+      "زيت جوز الهند"
+    ]
+  },
+  {
+    "name": "Canola Oil",
+    "nameAr": "زيت كانولا",
+    "category": "Oils",
+    "categoryAr": "زيوت",
+    "servingSizeG": 100,
+    "calories": 884,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 100.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "canola oil",
+      "زيت كانولا"
+    ]
+  },
+  {
+    "name": "Sunflower Oil",
+    "nameAr": "زيت دوار الشمس",
+    "category": "Oils",
+    "categoryAr": "زيوت",
+    "servingSizeG": 100,
+    "calories": 884,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 100.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "sunflower oil",
+      "زيت دوار الشمس"
+    ]
+  },
+  {
+    "name": "Sesame Oil",
+    "nameAr": "زيت سمسم",
+    "category": "Oils",
+    "categoryAr": "زيوت",
+    "servingSizeG": 100,
+    "calories": 884,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 100.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "sesame oil",
+      "زيت سمسم"
+    ]
+  },
+  {
+    "name": "Ketchup",
+    "nameAr": "كاتشب",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 100,
+    "proteinG": 1.0,
+    "carbsG": 26.0,
+    "fatG": 0.1,
+    "fiberG": 0.5,
+    "sugarG": 22.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ketchup",
+      "كاتشب"
+    ]
+  },
+  {
+    "name": "Mustard (Yellow)",
+    "nameAr": "خردل",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 66,
+    "proteinG": 3.7,
+    "carbsG": 6.0,
+    "fatG": 3.0,
+    "fiberG": 1.5,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mustard",
+      "خردل"
+    ]
+  },
+  {
+    "name": "Mayonnaise (Full Fat)",
+    "nameAr": "مايونيز كامل الدسم",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 724,
+    "proteinG": 1.0,
+    "carbsG": 0.6,
+    "fatG": 79.0,
+    "fiberG": 0.0,
+    "sugarG": 0.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mayonnaise",
+      "مايونيز",
+      "mayo"
+    ]
+  },
+  {
+    "name": "Light Mayonnaise",
+    "nameAr": "مايونيز لايت",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 330,
+    "proteinG": 1.0,
+    "carbsG": 5.0,
+    "fatG": 35.0,
+    "fiberG": 0.0,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "light mayonnaise",
+      "مايونيز لايت"
+    ]
+  },
+  {
+    "name": "BBQ Sauce",
+    "nameAr": "صلصة باربكيو",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 135,
+    "proteinG": 0.5,
+    "carbsG": 32.0,
+    "fatG": 0.5,
+    "fiberG": 0.5,
+    "sugarG": 26.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "bbq sauce",
+      "صلصة باربكيو"
+    ]
+  },
+  {
+    "name": "Hot Sauce (Tabasco)",
+    "nameAr": "صلصة حارة",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 12,
+    "proteinG": 0.5,
+    "carbsG": 2.0,
+    "fatG": 0.3,
+    "fiberG": 0.5,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "hot sauce",
+      "صلصة حارة",
+      "tabasco"
+    ]
+  },
+  {
+    "name": "Soy Sauce",
+    "nameAr": "صلصة صويا",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 53,
+    "proteinG": 8.0,
+    "carbsG": 5.0,
+    "fatG": 0.1,
+    "fiberG": 0.0,
+    "sugarG": 0.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "soy sauce",
+      "صلصة صويا"
+    ]
+  },
+  {
+    "name": "Vinaigrette Dressing (Italian)",
+    "nameAr": "صلصة إيطالية",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 280,
+    "proteinG": 0.5,
+    "carbsG": 4.0,
+    "fatG": 29.0,
+    "fiberG": 0.0,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "vinaigrette",
+      "صلصة إيطالية"
+    ]
+  },
+  {
+    "name": "Ranch Dressing",
+    "nameAr": "صلصة رانش",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 430,
+    "proteinG": 1.0,
+    "carbsG": 4.0,
+    "fatG": 46.0,
+    "fiberG": 0.0,
+    "sugarG": 2.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ranch dressing",
+      "صلصة رانش"
+    ]
+  },
+  {
+    "name": "Tomato Paste (Canned)",
+    "nameAr": "معجون طماطم",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 82,
+    "proteinG": 3.6,
+    "carbsG": 18.0,
+    "fatG": 0.5,
+    "fiberG": 4.0,
+    "sugarG": 12.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tomato paste",
+      "معجون طماطم"
+    ]
+  },
+  {
+    "name": "Tomato Sauce (Canned)",
+    "nameAr": "صلصة طماطم",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 24,
+    "proteinG": 1.2,
+    "carbsG": 5.0,
+    "fatG": 0.3,
+    "fiberG": 1.5,
+    "sugarG": 3.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tomato sauce",
+      "صلصة طماطم"
+    ]
+  },
+  {
+    "name": "Pasta Sauce (Marinara)",
+    "nameAr": "صلصة مارينارا",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 42,
+    "proteinG": 1.5,
+    "carbsG": 6.0,
+    "fatG": 1.5,
+    "fiberG": 1.5,
+    "sugarG": 4.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "marinara",
+      "صلصة مارينارا"
+    ]
+  },
+  {
+    "name": "Honey",
+    "nameAr": "عسل",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 304,
+    "proteinG": 0.3,
+    "carbsG": 82.4,
+    "fatG": 0.0,
+    "fiberG": 0.2,
+    "sugarG": 82.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "honey",
+      "عسل"
+    ]
+  },
+  {
+    "name": "Maple Syrup",
+    "nameAr": "شراب القيقب",
+    "category": "Sauces",
+    "categoryAr": "صلصات",
+    "servingSizeG": 100,
+    "calories": 260,
+    "proteinG": 0.0,
+    "carbsG": 67.0,
+    "fatG": 0.1,
+    "fiberG": 0.0,
+    "sugarG": 60.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "maple syrup",
+      "شراب القيقب"
+    ]
+  },
+  {
+    "name": "Apple Juice (Unsweetened)",
+    "nameAr": "عصير تفاح غير محلى",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 46,
+    "proteinG": 0.1,
+    "carbsG": 11.3,
+    "fatG": 0.1,
+    "fiberG": 0.0,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "apple juice",
+      "عصير تفاح"
+    ]
+  },
+  {
+    "name": "Orange Juice (Fresh)",
+    "nameAr": "عصير برتقال طازج",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 45,
+    "proteinG": 0.7,
+    "carbsG": 10.4,
+    "fatG": 0.2,
+    "fiberG": 0.2,
+    "sugarG": 8.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "orange juice",
+      "عصير برتقال"
+    ]
+  },
+  {
+    "name": "Grape Juice (Unsweetened)",
+    "nameAr": "عصير عنب غير محلى",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 62,
+    "proteinG": 0.4,
+    "carbsG": 15.0,
+    "fatG": 0.1,
+    "fiberG": 0.0,
+    "sugarG": 14.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "grape juice",
+      "عصير عنب"
+    ]
+  },
+  {
+    "name": "Coffee (Black, Brewed)",
+    "nameAr": "قهوة سوداء",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 1,
+    "proteinG": 0.1,
+    "carbsG": 0.0,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "coffee",
+      "قهوة",
+      "black coffee"
+    ]
+  },
+  {
+    "name": "Espresso",
+    "nameAr": "إسبريسو",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 9,
+    "proteinG": 0.1,
+    "carbsG": 1.7,
+    "fatG": 0.2,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "espresso",
+      "إسبريسو"
+    ]
+  },
+  {
+    "name": "Tea (Black, Brewed)",
+    "nameAr": "شاي أسود",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 1,
+    "proteinG": 0.0,
+    "carbsG": 0.3,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tea",
+      "شاي",
+      "black tea"
+    ]
+  },
+  {
+    "name": "Green Tea (Brewed)",
+    "nameAr": "شاي أخضر",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 1,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "green tea",
+      "شاي أخضر"
+    ]
+  },
+  {
+    "name": "Coca-Cola",
+    "nameAr": "كوكاكولا",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 42,
+    "proteinG": 0.0,
+    "carbsG": 10.6,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 10.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "coca cola",
+      "كوكاكولا",
+      "cola"
+    ]
+  },
+  {
+    "name": "Diet Coke",
+    "nameAr": "دايت كوك",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 0,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "diet coke",
+      "دايت كوك"
+    ]
+  },
+  {
+    "name": "Sprite",
+    "nameAr": "سبرايت",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 41,
+    "proteinG": 0.0,
+    "carbsG": 10.2,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 10.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "sprite",
+      "سبرايت",
+      "lemon lime soda"
+    ]
+  },
+  {
+    "name": "Beer (Regular, 5% ABV)",
+    "nameAr": "بيرة",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 43,
+    "proteinG": 0.5,
+    "carbsG": 3.6,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "beer",
+      "بيرة"
+    ]
+  },
+  {
+    "name": "Red Wine",
+    "nameAr": "نبيذ أحمر",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 85,
+    "proteinG": 0.1,
+    "carbsG": 2.6,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "red wine",
+      "نبيذ أحمر"
+    ]
+  },
+  {
+    "name": "White Wine",
+    "nameAr": "نبيذ أبيض",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 82,
+    "proteinG": 0.1,
+    "carbsG": 2.6,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "white wine",
+      "نبيذ أبيض"
+    ]
+  },
+  {
+    "name": "Chicken Breast (Raw, Skinless)",
+    "nameAr": "صدر دجاج ني بدون جلد",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 120,
+    "proteinG": 23.0,
+    "carbsG": 0.0,
+    "fatG": 2.6,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chicken breast raw",
+      "صدر دجاج ني"
+    ]
+  },
+  {
+    "name": "Ground Turkey (93/7, Cooked)",
+    "nameAr": "لحم ديك رومي مفروم مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 190,
+    "proteinG": 27.0,
+    "carbsG": 0.0,
+    "fatG": 9.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ground turkey",
+      "ديك رومي مفروم"
+    ]
+  },
+  {
+    "name": "Beef Steak (Ribeye, Raw)",
+    "nameAr": "ستيك ريش آي ني",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 230,
+    "proteinG": 21.0,
+    "carbsG": 0.0,
+    "fatG": 16.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ribeye raw",
+      "ستيك"
+    ]
+  },
+  {
+    "name": "Cottage Cheese (Low Fat, 2%)",
+    "nameAr": "جبنة قريش قليلة الدسم",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 84,
+    "proteinG": 11.0,
+    "carbsG": 4.3,
+    "fatG": 2.0,
+    "fiberG": 0.0,
+    "sugarG": 4.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cottage cheese low fat",
+      "جبنة قريش"
+    ]
+  },
+  {
+    "name": "Ricotta Cheese (Whole Milk)",
+    "nameAr": "جبنة ريكوتا",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 174,
+    "proteinG": 11.0,
+    "carbsG": 3.0,
+    "fatG": 13.0,
+    "fiberG": 0.0,
+    "sugarG": 0.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ricotta",
+      "ريكوتا"
+    ]
+  },
+  {
+    "name": "Swiss Cheese",
+    "nameAr": "جبنة سويسرية",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 380,
+    "proteinG": 27.0,
+    "carbsG": 1.4,
+    "fatG": 29.0,
+    "fiberG": 0.0,
+    "sugarG": 0.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "swiss cheese",
+      "جبنة سويسرية"
+    ]
+  },
+  {
+    "name": "Gouda Cheese",
+    "nameAr": "جبنة جودا",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 356,
+    "proteinG": 25.0,
+    "carbsG": 2.2,
+    "fatG": 27.0,
+    "fiberG": 0.0,
+    "sugarG": 2.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "gouda",
+      "جودا"
+    ]
+  },
+  {
+    "name": "Blue Cheese",
+    "nameAr": "جبنة زرقاء",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 353,
+    "proteinG": 21.0,
+    "carbsG": 2.3,
+    "fatG": 29.0,
+    "fiberG": 0.0,
+    "sugarG": 0.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "blue cheese",
+      "جبنة زرقاء"
+    ]
+  },
+  {
+    "name": "Coconut Milk (Canned)",
+    "nameAr": "حليب جوز الهند المعلب",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 230,
+    "proteinG": 2.3,
+    "carbsG": 5.5,
+    "fatG": 24.0,
+    "fiberG": 0.0,
+    "sugarG": 3.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "coconut milk",
+      "حليب جوز الهند"
+    ]
+  },
+  {
+    "name": "Coconut Water",
+    "nameAr": "ماء جوز الهند",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 19,
+    "proteinG": 0.7,
+    "carbsG": 3.7,
+    "fatG": 0.2,
+    "fiberG": 1.1,
+    "sugarG": 2.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "coconut water",
+      "ماء جوز الهند"
+    ]
+  },
+  {
+    "name": "Couscous (Cooked)",
+    "nameAr": "كسكس مطبوخ",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 112,
+    "proteinG": 3.8,
+    "carbsG": 22.0,
+    "fatG": 0.2,
+    "fiberG": 1.4,
+    "sugarG": 0.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "couscous",
+      "كسكس"
+    ]
+  },
+  {
+    "name": "Cranberries (Dried, Sweetened)",
+    "nameAr": "توت بري مجفف",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 308,
+    "proteinG": 0.2,
+    "carbsG": 82.0,
+    "fatG": 1.1,
+    "fiberG": 4.0,
+    "sugarG": 65.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cranberries",
+      "توت بري"
+    ]
+  },
+  {
+    "name": "Hummus (Commercial)",
+    "nameAr": "حمص تجاري",
+    "category": "Legumes",
+    "categoryAr": "بقوليات",
+    "servingSizeG": 100,
+    "calories": 166,
+    "proteinG": 7.9,
+    "carbsG": 14.3,
+    "fatG": 9.6,
+    "fiberG": 6.0,
+    "sugarG": 0.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "hummus commercial",
+      "حمص"
+    ]
+  },
+  {
+    "name": "Lentils (Green, Cooked)",
+    "nameAr": "عدس أخضر مطبوخ",
+    "category": "Legumes",
+    "categoryAr": "بقوليات",
+    "servingSizeG": 100,
+    "calories": 116,
+    "proteinG": 9.0,
+    "carbsG": 20.0,
+    "fatG": 0.4,
+    "fiberG": 8.0,
+    "sugarG": 1.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "lentils",
+      "عدس"
+    ]
+  },
+  {
+    "name": "Black Beans (Cooked)",
+    "nameAr": "فاصوليا سوداء مطبوخة",
+    "category": "Legumes",
+    "categoryAr": "بقوليات",
+    "servingSizeG": 100,
+    "calories": 132,
+    "proteinG": 8.9,
+    "carbsG": 24.0,
+    "fatG": 0.5,
+    "fiberG": 8.7,
+    "sugarG": 0.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "black beans",
+      "فاصوليا سوداء"
+    ]
+  },
+  {
+    "name": "Kidney Beans (Cooked)",
+    "nameAr": "فاصوليا حمراء مطبوخة",
+    "category": "Legumes",
+    "categoryAr": "بقوليات",
+    "servingSizeG": 100,
+    "calories": 127,
+    "proteinG": 8.7,
+    "carbsG": 22.8,
+    "fatG": 0.5,
+    "fiberG": 6.4,
+    "sugarG": 0.3,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "kidney beans",
+      "فاصوليا حمراء"
+    ]
+  },
+  {
+    "name": "Chickpeas (Canned, Drained)",
+    "nameAr": "حمص معلب مصفى",
+    "category": "Legumes",
+    "categoryAr": "بقوليات",
+    "servingSizeG": 100,
+    "calories": 130,
+    "proteinG": 7.0,
+    "carbsG": 22.0,
+    "fatG": 2.0,
+    "fiberG": 6.0,
+    "sugarG": 4.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chickpeas canned",
+      "حمص معلب"
+    ]
+  },
+  {
+    "name": "Tofu (Firm)",
+    "nameAr": "توفو صلب",
+    "category": "Legumes",
+    "categoryAr": "بقوليات",
+    "servingSizeG": 100,
+    "calories": 76,
+    "proteinG": 8.0,
+    "carbsG": 1.9,
+    "fatG": 4.8,
+    "fiberG": 0.3,
+    "sugarG": 0.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tofu",
+      "توفو"
+    ]
+  },
+  {
+    "name": "Edamame (Shelled, Cooked)",
+    "nameAr": "إدامامي مطبوخ",
+    "category": "Legumes",
+    "categoryAr": "بقوليات",
+    "servingSizeG": 100,
+    "calories": 122,
+    "proteinG": 12.0,
+    "carbsG": 8.9,
+    "fatG": 5.0,
+    "fiberG": 5.2,
+    "sugarG": 2.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "edamame",
+      "إدامامي"
+    ]
+  },
+  {
+    "name": "Cheese Pizza (Regular Crust)",
+    "nameAr": "بيتزا جبنة",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 266,
+    "proteinG": 11.0,
+    "carbsG": 33.0,
+    "fatG": 10.0,
+    "fiberG": 2.0,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pizza",
+      "بيتزا"
+    ]
+  },
+  {
+    "name": "Hamburger (Single Patty)",
+    "nameAr": "هامبرجر",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 250,
+    "proteinG": 17.0,
+    "carbsG": 30.0,
+    "fatG": 8.0,
+    "fiberG": 1.0,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "hamburger",
+      "هامبرجر"
+    ]
+  },
+  {
+    "name": "Cheeseburger (Single Patty)",
+    "nameAr": "تشيزبرجر",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 280,
+    "proteinG": 18.0,
+    "carbsG": 28.0,
+    "fatG": 11.0,
+    "fiberG": 1.0,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cheeseburger",
+      "تشيزبرجر"
+    ]
+  },
+  {
+    "name": "Chicken Nuggets (6 pieces)",
+    "nameAr": "ناجتس دجاج",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 290,
+    "proteinG": 14.0,
+    "carbsG": 18.0,
+    "fatG": 18.0,
+    "fiberG": 1.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chicken nuggets",
+      "ناجتس"
+    ]
+  },
+  {
+    "name": "Hot Dog (With Bun)",
+    "nameAr": "هوت دوج بالخبز",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 247,
+    "proteinG": 10.0,
+    "carbsG": 18.0,
+    "fatG": 15.0,
+    "fiberG": 0.5,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "hot dog with bun",
+      "هوت دوج"
+    ]
+  },
+  {
+    "name": "Donut (Glazed)",
+    "nameAr": "دونات ملمعة",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 421,
+    "proteinG": 5.5,
+    "carbsG": 50.0,
+    "fatG": 22.0,
+    "fiberG": 1.0,
+    "sugarG": 28.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "donut",
+      "دونات",
+      "doughnut"
+    ]
+  },
+  {
+    "name": "Muffin (Blueberry, Commercial)",
+    "nameAr": "مفن توت",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 350,
+    "proteinG": 5.0,
+    "carbsG": 52.0,
+    "fatG": 14.0,
+    "fiberG": 1.5,
+    "sugarG": 30.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "muffin",
+      "مفن"
+    ]
+  },
+  {
+    "name": "Cookie (Chocolate Chip, Commercial)",
+    "nameAr": "كوكيز شوكولاتة",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 488,
+    "proteinG": 5.0,
+    "carbsG": 64.0,
+    "fatG": 24.0,
+    "fiberG": 2.0,
+    "sugarG": 38.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chocolate chip cookie",
+      "كوكيز"
+    ]
+  },
+  {
+    "name": "Brownie (Commercial)",
+    "nameAr": "براوني",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 405,
+    "proteinG": 5.0,
+    "carbsG": 57.0,
+    "fatG": 18.0,
+    "fiberG": 2.0,
+    "sugarG": 40.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "brownie",
+      "براوني"
+    ]
+  },
+  {
+    "name": "Cheesecake (Plain)",
+    "nameAr": "تشيز كيك",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 321,
+    "proteinG": 6.0,
+    "carbsG": 28.0,
+    "fatG": 21.0,
+    "fiberG": 0.5,
+    "sugarG": 22.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cheesecake",
+      "تشيز كيك"
+    ]
+  },
+  {
+    "name": "Ice Cream (Vanilla, 10% Fat)",
+    "nameAr": "آيس كريم فانيليا",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 207,
+    "proteinG": 3.5,
+    "carbsG": 24.0,
+    "fatG": 11.0,
+    "fiberG": 0.0,
+    "sugarG": 21.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ice cream",
+      "آيس كريم"
+    ]
+  },
+  {
+    "name": "Cinnamon Roll (With Icing)",
+    "nameAr": "لفة قرفة",
+    "category": "Fast Food",
+    "categoryAr": "وجبات سريعة",
+    "servingSizeG": 100,
+    "calories": 350,
+    "proteinG": 5.0,
+    "carbsG": 50.0,
+    "fatG": 15.0,
+    "fiberG": 1.5,
+    "sugarG": 28.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cinnamon roll",
+      "لفة قرفة"
+    ]
+  },
+  {
+    "name": "Pancake (Plain, 6-inch)",
+    "nameAr": "بان كيك",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 227,
+    "proteinG": 6.0,
+    "carbsG": 28.0,
+    "fatG": 10.0,
+    "fiberG": 0.8,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pancake",
+      "بان كيك"
+    ]
+  },
+  {
+    "name": "Waffle (Plain)",
+    "nameAr": "وافل",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 291,
+    "proteinG": 7.0,
+    "carbsG": 33.0,
+    "fatG": 15.0,
+    "fiberG": 1.0,
+    "sugarG": 8.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "waffle",
+      "وافل"
+    ]
+  },
+  {
+    "name": "French Toast (With Butter)",
+    "nameAr": "توست فرنسي",
+    "category": "Bread",
+    "categoryAr": "خبز",
+    "servingSizeG": 100,
+    "calories": 220,
+    "proteinG": 8.0,
+    "carbsG": 28.0,
+    "fatG": 8.5,
+    "fiberG": 1.0,
+    "sugarG": 8.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "french toast",
+      "توست فرنسي"
+    ]
+  },
+  {
+    "name": "Mixed Nuts (Roasted, Salted)",
+    "nameAr": "مكسرات مشكلة محمصة",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 607,
+    "proteinG": 20.0,
+    "carbsG": 20.0,
+    "fatG": 54.0,
+    "fiberG": 7.0,
+    "sugarG": 5.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mixed nuts roasted",
+      "مكسرات"
+    ]
+  },
+  {
+    "name": "Trail Mix (With Chocolate)",
+    "nameAr": "مكس درب بالشوكولاتة",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 500,
+    "proteinG": 12.0,
+    "carbsG": 45.0,
+    "fatG": 32.0,
+    "fiberG": 5.0,
+    "sugarG": 30.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "trail mix",
+      "مكس درب"
+    ]
+  },
+  {
+    "name": "Rice Cakes (Plain)",
+    "nameAr": "كعك أرز",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 380,
+    "proteinG": 8.0,
+    "carbsG": 80.0,
+    "fatG": 2.0,
+    "fiberG": 2.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "rice cakes",
+      "كعك أرز"
+    ]
+  },
+  {
+    "name": "Crackers (Saltine)",
+    "nameAr": "بسكويت مالح",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 418,
+    "proteinG": 9.0,
+    "carbsG": 74.0,
+    "fatG": 9.0,
+    "fiberG": 2.5,
+    "sugarG": 0.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "crackers",
+      "بسكويت مالح"
+    ]
+  },
+  {
+    "name": "Energy Bar (Generic)",
+    "nameAr": "بار طاقة",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 400,
+    "proteinG": 20.0,
+    "carbsG": 50.0,
+    "fatG": 12.0,
+    "fiberG": 5.0,
+    "sugarG": 25.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "energy bar",
+      "بار طاقة"
+    ]
+  },
+  {
+    "name": "Protein Shake (Ready-to-Drink)",
+    "nameAr": "مخفوق بروتين",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 65,
+    "proteinG": 10.0,
+    "carbsG": 3.5,
+    "fatG": 1.0,
+    "fiberG": 0.5,
+    "sugarG": 2.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "protein shake",
+      "مخفوق بروتين"
+    ]
+  },
+  {
+    "name": "Gatorade (Sports Drink)",
+    "nameAr": "جاتوريد",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 26,
+    "proteinG": 0.0,
+    "carbsG": 6.0,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 5.6,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "gatorade",
+      "جاتوريد"
+    ]
+  },
+  {
+    "name": "Lemonade (Homemade)",
+    "nameAr": "ليموناضة",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 40,
+    "proteinG": 0.1,
+    "carbsG": 10.0,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "lemonade",
+      "ليموناضة"
+    ]
+  },
+  {
+    "name": "Iced Tea (Sweetened)",
+    "nameAr": "شاي مثلج محلى",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 30,
+    "proteinG": 0.0,
+    "carbsG": 7.5,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 7.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "iced tea",
+      "شاي مثلج"
+    ]
+  },
+  {
+    "name": "Hot Chocolate (With Whole Milk)",
+    "nameAr": "شوكولاتة ساخنة",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 77,
+    "proteinG": 3.0,
+    "carbsG": 11.0,
+    "fatG": 2.5,
+    "fiberG": 0.5,
+    "sugarG": 9.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "hot chocolate",
+      "شوكولاتة ساخنة"
+    ]
+  },
+  {
+    "name": "Cappuccino (With Whole Milk)",
+    "nameAr": "كابتشينو",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 31,
+    "proteinG": 1.6,
+    "carbsG": 2.5,
+    "fatG": 1.7,
+    "fiberG": 0.0,
+    "sugarG": 1.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cappuccino",
+      "كابتشينو"
+    ]
+  },
+  {
+    "name": "Latte (With Whole Milk)",
+    "nameAr": "لاتيه",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 54,
+    "proteinG": 3.0,
+    "carbsG": 4.5,
+    "fatG": 2.8,
+    "fiberG": 0.0,
+    "sugarG": 3.5,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "latte",
+      "لاتيه"
+    ]
+  },
+  {
+    "name": "Mocha (With Whole Milk)",
+    "nameAr": "موكا",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 65,
+    "proteinG": 2.5,
+    "carbsG": 7.5,
+    "fatG": 2.8,
+    "fiberG": 0.3,
+    "sugarG": 6.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mocha",
+      "موكا"
+    ]
+  },
+  {
+    "name": "Ginger Ale",
+    "nameAr": "جينجر أيل",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 34,
+    "proteinG": 0.0,
+    "carbsG": 8.8,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 8.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "ginger ale",
+      "جينجر أيل"
+    ]
+  },
+  {
+    "name": "Vegetable Juice (V8 Style)",
+    "nameAr": "عصير خضار",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 20,
+    "proteinG": 0.8,
+    "carbsG": 4.0,
+    "fatG": 0.1,
+    "fiberG": 0.5,
+    "sugarG": 3.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "vegetable juice",
+      "عصير خضار"
+    ]
+  },
+  {
+    "name": "Cranberry Juice (Unsweetened)",
+    "nameAr": "عصير توت بري غير محلى",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 46,
+    "proteinG": 0.4,
+    "carbsG": 12.2,
+    "fatG": 0.1,
+    "fiberG": 0.0,
+    "sugarG": 12.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "cranberry juice",
+      "عصير توت بري"
+    ]
+  },
+  {
+    "name": "Beetroot (Cooked)",
+    "nameAr": "بنجر مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 44,
+    "proteinG": 1.7,
+    "carbsG": 10.0,
+    "fatG": 0.2,
+    "fiberG": 2.0,
+    "sugarG": 7.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "beetroot",
+      "بنجر"
+    ]
+  },
+  {
+    "name": "Celery (Raw)",
+    "nameAr": "كرفس",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 16,
+    "proteinG": 0.7,
+    "carbsG": 3.0,
+    "fatG": 0.2,
+    "fiberG": 1.6,
+    "sugarG": 1.4,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "celery",
+      "كرفس"
+    ]
+  },
+  {
+    "name": "Radish (Raw)",
+    "nameAr": "فجل",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 16,
+    "proteinG": 0.7,
+    "carbsG": 3.4,
+    "fatG": 0.1,
+    "fiberG": 1.6,
+    "sugarG": 1.9,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "radish",
+      "فجل"
+    ]
+  },
+  {
+    "name": "Arugula (Raw)",
+    "nameAr": "جرجير",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 25,
+    "proteinG": 2.6,
+    "carbsG": 3.7,
+    "fatG": 0.7,
+    "fiberG": 1.6,
+    "sugarG": 2.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "arugula",
+      "جرجير"
+    ]
+  },
+  {
+    "name": "Artichoke (Cooked)",
+    "nameAr": "خرشوف مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 53,
+    "proteinG": 2.9,
+    "carbsG": 12.0,
+    "fatG": 0.3,
+    "fiberG": 5.0,
+    "sugarG": 0.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "artichoke",
+      "خرشوف"
+    ]
+  },
+  {
+    "name": "Brussels Sprouts (Cooked)",
+    "nameAr": "كرنب بروكسل مطبوخ",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 36,
+    "proteinG": 2.6,
+    "carbsG": 7.0,
+    "fatG": 0.5,
+    "fiberG": 2.6,
+    "sugarG": 1.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "brussels sprouts",
+      "كرنب بروكسل"
+    ]
+  },
+  {
+    "name": "Pomegranate (Raw)",
+    "nameAr": "رمان",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 83,
+    "proteinG": 1.7,
+    "carbsG": 19.0,
+    "fatG": 1.2,
+    "fiberG": 4.0,
+    "sugarG": 13.7,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pomegranate",
+      "رمان"
+    ]
+  },
+  {
+    "name": "Apricot (Raw)",
+    "nameAr": "مشمش",
+    "category": "Fruits",
+    "categoryAr": "فواكه",
+    "servingSizeG": 100,
+    "calories": 48,
+    "proteinG": 1.4,
+    "carbsG": 11.1,
+    "fatG": 0.4,
+    "fiberG": 2.0,
+    "sugarG": 9.2,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "apricot",
+      "مشمش"
+    ]
+  },
+  {
+    "name": "Rice (White, Uncooked)",
+    "nameAr": "رز أبيض غير مطبوخ",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 365,
+    "proteinG": 7.1,
+    "carbsG": 80.0,
+    "fatG": 0.7,
+    "fiberG": 1.4,
+    "sugarG": 0.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "white rice uncooked",
+      "رز أبيض"
+    ]
+  },
+  {
+    "name": "Pasta (Whole Wheat, Cooked)",
+    "nameAr": "مكرونة قمح كامل مطبوخة",
+    "category": "Grains",
+    "categoryAr": "حبوب",
+    "servingSizeG": 100,
+    "calories": 124,
+    "proteinG": 5.3,
+    "carbsG": 26.0,
+    "fatG": 0.5,
+    "fiberG": 3.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "whole wheat pasta",
+      "مكرونة قمح كامل"
+    ]
+  },
+  {
+    "name": "Milk (Evaporated, Canned)",
+    "nameAr": "حليب مبخر",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 134,
+    "proteinG": 6.8,
+    "carbsG": 10.0,
+    "fatG": 7.5,
+    "fiberG": 0.0,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "evaporated milk",
+      "حليب مبخر"
+    ]
+  },
+  {
+    "name": "Milk (Condensed, Sweetened)",
+    "nameAr": "حليب مكثف محلى",
+    "category": "Dairy",
+    "categoryAr": "ألبان",
+    "servingSizeG": 100,
+    "calories": 321,
+    "proteinG": 7.9,
+    "carbsG": 54.0,
+    "fatG": 8.7,
+    "fiberG": 0.0,
+    "sugarG": 54.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "condensed milk",
+      "حليب مكثف"
+    ]
+  },
+  {
+    "name": "Gelato (Vanilla)",
+    "nameAr": "جيلاتو فانيليا",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 200,
+    "proteinG": 3.0,
+    "carbsG": 25.0,
+    "fatG": 10.0,
+    "fiberG": 0.0,
+    "sugarG": 22.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "gelato",
+      "جيلاتو"
+    ]
+  },
+  {
+    "name": "Pudding (Chocolate, Ready-to-Eat)",
+    "nameAr": "بودنج شوكولاتة",
+    "category": "Snacks",
+    "categoryAr": "وجبات خفيفة",
+    "servingSizeG": 100,
+    "calories": 120,
+    "proteinG": 2.5,
+    "carbsG": 22.0,
+    "fatG": 2.5,
+    "fiberG": 0.5,
+    "sugarG": 16.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "pudding",
+      "بودنج"
+    ]
+  },
+  {
+    "name": "Sweet Potato Fries (Baked)",
+    "nameAr": "بطاطا حلوة مقلية",
+    "category": "Vegetables",
+    "categoryAr": "خضروات",
+    "servingSizeG": 100,
+    "calories": 180,
+    "proteinG": 2.0,
+    "carbsG": 28.0,
+    "fatG": 7.0,
+    "fiberG": 4.0,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "sweet potato fries",
+      "بطاطا حلوة مقلية"
+    ]
+  },
+  {
+    "name": "Chicken Sausage (Cooked)",
+    "nameAr": "سجق دجاج مطبوخ",
+    "category": "Meat",
+    "categoryAr": "لحوم",
+    "servingSizeG": 100,
+    "calories": 230,
+    "proteinG": 16.0,
+    "carbsG": 4.0,
+    "fatG": 17.0,
+    "fiberG": 0.0,
+    "sugarG": 1.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "chicken sausage",
+      "سجق دجاج"
+    ]
+  },
+  {
+    "name": "Whiskey (40% ABV)",
+    "nameAr": "ويسكي",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 250,
+    "proteinG": 0.0,
+    "carbsG": 0.1,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.1,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "whiskey",
+      "ويسكي"
+    ]
+  },
+  {
+    "name": "Mineral Water (Carbonated)",
+    "nameAr": "ماء معدني فوار",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 0,
+    "proteinG": 0.0,
+    "carbsG": 0.0,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 0.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "mineral water",
+      "ماء معدني"
+    ]
+  },
+  {
+    "name": "Apple Cider (Unsweetened)",
+    "nameAr": "سيدر تفاح",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 45,
+    "proteinG": 0.1,
+    "carbsG": 11.0,
+    "fatG": 0.1,
+    "fiberG": 0.2,
+    "sugarG": 10.0,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "apple cider",
+      "سيدر تفاح"
+    ]
+  },
+  {
+    "name": "Tonic Water",
+    "nameAr": "تونيك",
+    "category": "Beverages",
+    "categoryAr": "مشروبات",
+    "servingSizeG": 100,
+    "calories": 34,
+    "proteinG": 0.0,
+    "carbsG": 8.8,
+    "fatG": 0.0,
+    "fiberG": 0.0,
+    "sugarG": 8.8,
+    "source": "usda",
+    "verified": true,
+    "searchKeywords": [
+      "tonic water",
+      "تونيك"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+workflows:
+  gym-app:
+    name: Gym AI App
+    instance_type: mac_mini_m2
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      vars:
+        FIREBASE_PROJECT_ID: your-firebase-project-id
+        FIREBASE_API_KEY: your-firebase-api-key
+        FIREBASE_APP_ID: 1:your-app-id:android:your-hash
+        FIREBASE_MESSAGING_SENDER_ID: your-sender-id
+        FIREBASE_STORAGE_BUCKET: your-project.appspot.com
+        FIREBASE_IOS_CLIENT_ID: your-ios-client-id
+        FIREBASE_IOS_BUNDLE_ID: com.gym.app
+    cache:
+      cache_paths:
+        - ~/.pub-cache
+    scripts:
+      - name: Create Flutter project structure
+        script: |
+          if [ ! -d "android" ]; then
+            flutter create --project-name gym_app --org com.gym .
+          fi
+      - name: Add Firebase plugins to Gradle
+        script: |
+          # Add google-services classpath to project-level build.gradle
+          sed -i '' "s/dependencies {/dependencies {\n        classpath 'com.google.gms:google-services:4.4.2'/" android/build.gradle
+
+          # Add google-services plugin to app-level build.gradle
+          echo "apply plugin: 'com.google.gms.google-services'" >> android/app/build.gradle
+      - name: Generate firebase_options.dart
+        script: |
+          cat > lib/firebase_options.dart << EOF
+          import 'package:firebase_core/firebase_core.dart';
+
+          class DefaultFirebaseOptions {
+            static const FirebaseOptions currentPlatform = FirebaseOptions(
+              apiKey: '${FIREBASE_API_KEY}',
+              appId: '${FIREBASE_APP_ID}',
+              messagingSenderId: '${FIREBASE_MESSAGING_SENDER_ID}',
+              projectId: '${FIREBASE_PROJECT_ID}',
+              storageBucket: '${FIREBASE_STORAGE_BUCKET}',
+              iosClientId: '${FIREBASE_IOS_CLIENT_ID}',
+              iosBundleId: '${FIREBASE_IOS_BUNDLE_ID}',
+            );
+          }
+          EOF
+      - name: Add Firebase Android config
+        script: |
+          cat > android/app/google-services.json << EOF
+          {
+            "project_info": {
+              "project_number": "${FIREBASE_MESSAGING_SENDER_ID}",
+              "project_id": "${FIREBASE_PROJECT_ID}",
+              "storage_bucket": "${FIREBASE_STORAGE_BUCKET}"
+            },
+            "client": [
+              {
+                "client_info": {
+                  "mobilesdk_app_id": "${FIREBASE_APP_ID}",
+                  "android_client_info": {
+                    "package_name": "com.gym.app"
+                  }
+                },
+                "oauth_client": [],
+                "api_key": [
+                  {
+                    "current_key": "${FIREBASE_API_KEY}"
+                  }
+                ],
+                "services": {
+                  "appinvite_service": {
+                    "other_platform_oauth_client": []
+                  }
+                }
+              }
+            ],
+            "configuration_version": "1"
+          }
+          EOF
+      - name: Get packages
+        script: flutter pub get
+      - name: Generate code
+        script: dart run build_runner build --delete-conflicting-outputs
+      - name: Build Android APK
+        script: flutter build apk --release
+      - name: Build iOS
+        script: flutter build ios --release --no-codesign
+    artifacts:
+      - build/app/outputs/flutter-apk/*.apk
+      - build/ios/iphoneos/*.ipa
+    publishing:
+      email:
+        recipients:
+          - your-email@gmail.com

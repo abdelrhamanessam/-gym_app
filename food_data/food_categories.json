@@ -1,0 +1,17 @@
+[
+  {"id": "grains", "nameEn": "Grains & Rice", "nameAr": "حبوب وأرز", "icon": "rice"},
+  {"id": "bread", "nameEn": "Bread & Pastries", "nameAr": "خبز ومعجنات", "icon": "bread"},
+  {"id": "meat", "nameEn": "Meat & Poultry", "nameAr": "لحوم ودواجن", "icon": "meat"},
+  {"id": "fish", "nameEn": "Fish & Seafood", "nameAr": "أسماك ومأكولات بحرية", "icon": "fish"},
+  {"id": "dairy", "nameEn": "Dairy & Eggs", "nameAr": "ألبان وبيض", "icon": "dairy"},
+  {"id": "vegetables", "nameEn": "Vegetables", "nameAr": "خضروات", "icon": "vegetables"},
+  {"id": "fruits", "nameEn": "Fruits", "nameAr": "فواكه", "icon": "fruits"},
+  {"id": "legumes", "nameEn": "Legumes", "nameAr": "بقوليات", "icon": "legumes"},
+  {"id": "soups", "nameEn": "Soups", "nameAr": "شوربة", "icon": "soup"},
+  {"id": "egyptian", "nameEn": "Egyptian Dishes", "nameAr": "أكلات مصرية", "icon": "egypt"},
+  {"id": "snacks", "nameEn": "Snacks & Sweets", "nameAr": "وجبات خفيفة وحلويات", "icon": "snacks"},
+  {"id": "beverages", "nameEn": "Beverages", "nameAr": "مشروبات", "icon": "drink"},
+  {"id": "oils", "nameEn": "Oils & Fats", "nameAr": "زيوت ودهون", "icon": "oil"},
+  {"id": "sauces", "nameEn": "Sauces & Spices", "nameAr": "صلصات وتوابل", "icon": "sauce"},
+  {"id": "fastfood", "nameEn": "Fast Food", "nameAr": "وجبات سريعة", "icon": "fastfood"}
+]

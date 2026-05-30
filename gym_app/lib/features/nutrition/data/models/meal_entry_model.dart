@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:gym_app/core/utils/timestamp_converter.dart';
 import 'meal_food_item_model.dart';
 
 part 'meal_entry_model.freezed.dart';
@@ -10,7 +11,7 @@ class MealEntryModel with _$MealEntryModel {
   const factory MealEntryModel({
     required String mealId,
     required String userId,
-    required Timestamp date,
+    @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson) required Timestamp date,
     required String mealType,
     @Default([]) List<MealFoodItemModel> foods,
     @Default(0) double totalCalories,
@@ -19,7 +20,7 @@ class MealEntryModel with _$MealEntryModel {
     @Default(0) double totalFat,
     String? imageUrl,
     String? notes,
-    required Timestamp createdAt,
+    @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson) required Timestamp createdAt,
   }) = _MealEntryModel;
 
   factory MealEntryModel.fromJson(Map<String, dynamic> json) =>

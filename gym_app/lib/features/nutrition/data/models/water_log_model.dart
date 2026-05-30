@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:gym_app/core/utils/timestamp_converter.dart';
 
 part 'water_log_model.freezed.dart';
 part 'water_log_model.g.dart';
@@ -9,9 +10,9 @@ class WaterLogModel with _$WaterLogModel {
   const factory WaterLogModel({
     required String waterId,
     required String userId,
-    required Timestamp date,
+    @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson) required Timestamp date,
     @Default(250) double amountMl,
-    required Timestamp createdAt,
+    @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson) required Timestamp createdAt,
   }) = _WaterLogModel;
 
   factory WaterLogModel.fromJson(Map<String, dynamic> json) =>

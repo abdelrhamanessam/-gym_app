@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../../../../core/constants/api_constants.dart';
-import '../../../../core/network/api_client.dart';
+import 'package:gym_app/core/constants/api_constants.dart';
+import 'package:gym_app/core/network/api_client.dart';
 
 part 'ai_coach_remote_datasource.g.dart';
 

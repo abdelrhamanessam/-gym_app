@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:uuid/uuid.dart';
 import 'package:intl/intl.dart';
-import '../../../core/theme/app_colors.dart';
-import '../../../core/widgets/loading_widget.dart';
-import '../../../core/widgets/error_widget.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
+import 'package:gym_app/core/widgets/loading_widget.dart';
+import 'package:gym_app/core/widgets/error_widget.dart';
 import '../../domain/entities/body_goal.dart';
 import '../providers/progress_providers.dart';
 

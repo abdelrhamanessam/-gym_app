@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:uuid/uuid.dart';
-import '../../../../core/utils/calculations.dart' as calc;
+import 'package:gym_app/core/utils/calculations.dart' as calc;
 import '../../domain/entities/daily_summary.dart';
 import '../../domain/entities/food_category.dart';
 import '../../domain/entities/food_item.dart';

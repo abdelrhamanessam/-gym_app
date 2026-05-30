@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
-import '../../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 
 class LevelBadge extends StatefulWidget {
   final int level;
@@ -55,8 +55,7 @@ class _LevelBadgeState extends State<LevelBadge>
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: _controller,
+    return ListenableBuilder(listenable: _controller,
       builder: (context, child) {
         return Transform.scale(
           scale: 0.8 + (0.2 * _scaleAnimation.value),
@@ -121,17 +120,3 @@ class _LevelBadgeState extends State<LevelBadge>
   }
 }
 
-class AnimatedBuilder extends AnimatedWidget {
-  final Widget Function(BuildContext context, Widget? child) builder;
-
-  const AnimatedBuilder({
-    super.key,
-    required super.listenable,
-    required this.builder,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return builder(context, null);
-  }
-}

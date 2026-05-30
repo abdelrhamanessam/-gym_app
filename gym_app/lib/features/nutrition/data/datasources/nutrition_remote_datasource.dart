@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import '../../../core/constants/firebase_constants.dart';
+import 'package:gym_app/core/constants/firebase_constants.dart';
 
 class NutritionRemoteDataSource {
   final FirebaseFirestore _firestore;

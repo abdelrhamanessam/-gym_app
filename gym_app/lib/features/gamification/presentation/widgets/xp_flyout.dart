@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 
 class XpFlyout extends StatefulWidget {
   final int amount;
@@ -64,8 +64,7 @@ class _XpFlyoutState extends State<XpFlyout>
         children: [
           widget.child,
           if (_showFlyout)
-            AnimatedBuilder(
-              animation: _controller,
+            ListenableBuilder(listenable: _controller,
               builder: (context, child) {
                 return Positioned(
                   top: _offsetAnimation.value,
@@ -99,17 +98,3 @@ class _XpFlyoutState extends State<XpFlyout>
   }
 }
 
-class AnimatedBuilder extends AnimatedWidget {
-  final Widget Function(BuildContext context, Widget? child) builder;
-
-  const AnimatedBuilder({
-    super.key,
-    required super.listenable,
-    required this.builder,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return builder(context, null);
-  }
-}

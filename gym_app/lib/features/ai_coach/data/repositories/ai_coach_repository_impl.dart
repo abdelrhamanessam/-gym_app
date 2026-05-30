@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:uuid/uuid.dart';
-import '../../../../core/constants/firebase_constants.dart';
+import 'package:gym_app/core/constants/firebase_constants.dart';
 import '../../domain/entities/ai_advice.dart';
 import '../../domain/repositories/ai_coach_repository.dart';
 import '../datasources/ai_coach_remote_datasource.dart';

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../../../../core/constants/firebase_constants.dart';
+import 'package:gym_app/core/constants/firebase_constants.dart';
 
 part 'admin_providers.g.dart';
 

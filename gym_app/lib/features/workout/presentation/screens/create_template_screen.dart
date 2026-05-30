@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:uuid/uuid.dart';
-import '../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 import '../../domain/entities/exercise.dart';
 import '../../domain/entities/template_exercise.dart';
 import '../../domain/entities/workout_template.dart';

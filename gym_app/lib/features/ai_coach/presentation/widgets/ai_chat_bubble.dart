@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 
 class AiChatBubble extends StatelessWidget {
   final String message;

@@ -42,8 +42,7 @@ class _LoadingWidgetState extends State<LoadingWidget>
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: _animation,
+    return ListenableBuilder(listenable: _animation,
       builder: (context, child) {
         return Container(
           width: widget.width ?? double.infinity,
@@ -129,17 +128,3 @@ class LoadingScreen extends StatelessWidget {
   }
 }
 
-class AnimatedBuilder extends AnimatedWidget {
-  final Widget Function(BuildContext context, Widget? child) builder;
-
-  const AnimatedBuilder({
-    super.key,
-    required super.listenable,
-    required this.builder,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return builder(context, null);
-  }
-}

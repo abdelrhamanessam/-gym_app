@@ -58,8 +58,7 @@ class _AnimatedRingState extends State<AnimatedRing>
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: _animation,
+    return ListenableBuilder(listenable: _animation,
       builder: (context, child) {
         return SizedBox(
           width: widget.size,
@@ -158,17 +157,3 @@ class _RingPainter extends CustomPainter {
   }
 }
 
-class AnimatedBuilder extends AnimatedWidget {
-  final Widget Function(BuildContext context, Widget? child) builder;
-
-  const AnimatedBuilder({
-    super.key,
-    required super.listenable,
-    required this.builder,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return builder(context, null);
-  }
-}

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../core/widgets/animated_ring.dart';
+import 'package:gym_app/core/widgets/animated_ring.dart';
 
 class AnimatedRingCard extends StatelessWidget {
   final String label;

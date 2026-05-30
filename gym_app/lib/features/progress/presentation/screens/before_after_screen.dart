@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'dart:io';
-import '../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 import '../../domain/entities/progress_photo.dart';
 import '../widgets/comparison_slider.dart';
 

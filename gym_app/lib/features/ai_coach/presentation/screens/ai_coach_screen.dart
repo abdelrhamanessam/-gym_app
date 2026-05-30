@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../../core/theme/app_colors.dart';
-import '../../../../core/utils/date_utils.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
+import 'package:gym_app/core/utils/date_utils.dart';
 import '../providers/ai_coach_providers.dart';
 import '../widgets/ai_chat_bubble.dart';
 

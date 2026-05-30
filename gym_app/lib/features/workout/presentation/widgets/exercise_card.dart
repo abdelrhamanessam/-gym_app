@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import '../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 import '../../domain/entities/exercise.dart';
 
 class ExerciseCard extends StatelessWidget {

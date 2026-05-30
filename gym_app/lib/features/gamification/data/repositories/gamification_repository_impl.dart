@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:uuid/uuid.dart';
-import '../../../../core/constants/firebase_constants.dart';
+import 'package:gym_app/core/constants/firebase_constants.dart';
 import 'package:gym_app/features/gamification/domain/entities/user_xp.dart';
 import '../../domain/entities/achievement.dart';
 import '../../domain/entities/user_achievement.dart';

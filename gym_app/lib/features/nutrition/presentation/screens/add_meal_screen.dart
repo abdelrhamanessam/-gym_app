@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:uuid/uuid.dart';
-import '../../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 import '../../domain/entities/meal_entry.dart';
 import '../../domain/entities/meal_food_item.dart';
 import '../../domain/entities/food_item.dart';

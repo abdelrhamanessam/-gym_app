@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../core/theme/app_colors.dart';
+import 'package:gym_app/core/theme/app_colors.dart';
 
 class StatsRow extends StatelessWidget {
   final List<StatItem> items;

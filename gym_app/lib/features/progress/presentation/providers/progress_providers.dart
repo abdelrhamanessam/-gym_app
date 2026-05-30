@@ -16,35 +16,35 @@ ProgressRepository progressRepository(ProgressRepositoryRef ref) {
 }
 
 @riverpod
-Future<List<BodyMeasurement>> measurementsProvider(
-    MeasurementsProviderRef ref) async {
+Future<List<BodyMeasurement>> measurements(
+    MeasurementsRef ref) async {
   final repo = ref.watch(progressRepositoryProvider);
   return repo.getMeasurements('');
 }
 
 @riverpod
-Future<BodyMeasurement?> latestMeasurementProvider(
-    LatestMeasurementProviderRef ref) async {
+Future<BodyMeasurement?> latestMeasurement(
+    LatestMeasurementRef ref) async {
   final repo = ref.watch(progressRepositoryProvider);
   return repo.getLatestMeasurement('');
 }
 
 @riverpod
-Future<List<BodyGoal>> bodyGoalsProvider(BodyGoalsProviderRef ref) async {
+Future<List<BodyGoal>> bodyGoals(BodyGoalsRef ref) async {
   final repo = ref.watch(progressRepositoryProvider);
   return repo.getBodyGoals('');
 }
 
 @riverpod
-Future<List<ProgressPhoto>> progressPhotosProvider(
-    ProgressPhotosProviderRef ref) async {
+Future<List<ProgressPhoto>> progressPhotos(
+    ProgressPhotosRef ref) async {
   final repo = ref.watch(progressRepositoryProvider);
   return repo.getProgressPhotos('');
 }
 
 @riverpod
-Future<void> addMeasurementProvider(
-    AddMeasurementProviderRef ref, BodyMeasurement measurement) async {
+Future<void> addMeasurement(
+    AddMeasurementRef ref, BodyMeasurement measurement) async {
   final repo = ref.watch(progressRepositoryProvider);
   await repo.addMeasurement(measurement);
   ref.invalidate(measurementsProvider);
@@ -52,8 +52,8 @@ Future<void> addMeasurementProvider(
 }
 
 @riverpod
-Future<void> saveBodyGoalProvider(
-    SaveBodyGoalProviderRef ref, BodyGoal goal) async {
+Future<void> saveBodyGoal(
+    SaveBodyGoalRef ref, BodyGoal goal) async {
   final repo = ref.watch(progressRepositoryProvider);
   await repo.saveBodyGoal(goal);
   ref.invalidate(bodyGoalsProvider);

@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:uuid/uuid.dart';
 import '../../../../core/constants/firebase_constants.dart';
-import '../../domain/entities/user_xp.dart' as xp_calc;
+import 'package:gym_app/features/gamification/domain/entities/user_xp.dart';
 import '../../domain/entities/achievement.dart';
 import '../../domain/entities/user_achievement.dart';
 import '../../domain/repositories/gamification_repository.dart';
@@ -52,7 +52,7 @@ class GamificationRepositoryImpl implements GamificationRepository {
         id: id,
         userId: userId,
         totalXp: amount,
-        level: xp_calc.calculateLevel(amount),
+        level: calculateLevel(amount),
         streakDays: 1,
         longestStreak: 1,
         lastWorkoutDate: reason == 'workout' ? today : null,
@@ -92,7 +92,7 @@ class GamificationRepositoryImpl implements GamificationRepository {
       }
 
       final newTotalXp = existing.totalXp + amount;
-      final newLevel = xp_calc.calculateLevel(newTotalXp);
+      final newLevel = calculateLevel(newTotalXp);
 
       updated = existing.copyWith(
         totalXp: newTotalXp,
@@ -105,7 +105,7 @@ class GamificationRepositoryImpl implements GamificationRepository {
       await dataSource.setUserXp(existing.id, updated.toFirestore());
     }
 
-    final newLevel = xp_calc.calculateLevel(updated.totalXp);
+    final newLevel = calculateLevel(updated.totalXp);
     return newLevel;
   }
 

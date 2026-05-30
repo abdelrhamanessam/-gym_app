@@ -406,10 +406,3 @@ class _ExerciseDetailGroup extends StatelessWidget {
     );
   }
 }
-
-@riverpod
-Future<WorkoutSession?> workoutSessionDetailProvider(
-    WorkoutSessionDetailProviderRef ref, String id) async {
-  final repo = ref.watch(workoutRepositoryProvider);
-  return repo.getWorkoutSessionById(id);
-}

@@ -20,18 +20,18 @@ workflows:
     scripts:
       - name: Create Flutter project structure
         script: |
+          cd gym_app
           if [ ! -d "android" ]; then
             flutter create --project-name gym_app --org com.gym .
           fi
       - name: Add Firebase plugins to Gradle
         script: |
-          # Add google-services classpath to project-level build.gradle
-          sed -i '' "s/dependencies {/dependencies {\n        classpath 'com.google.gms:google-services:4.4.2'/" android/build.gradle
-
-          # Add google-services plugin to app-level build.gradle
+          cd gym_app
+          sed -i '' 's/dependencies {/dependencies {\n        classpath '\''com.google.gms:google-services:4.4.2'\''/' android/build.gradle
           echo "apply plugin: 'com.google.gms.google-services'" >> android/app/build.gradle
       - name: Generate firebase_options.dart
         script: |
+          cd gym_app
           cat > lib/firebase_options.dart << EOF
           import 'package:firebase_core/firebase_core.dart';
 
@@ -49,6 +49,7 @@ workflows:
           EOF
       - name: Add Firebase Android config
         script: |
+          cd gym_app
           cat > android/app/google-services.json << EOF
           {
             "project_info": {
@@ -81,16 +82,13 @@ workflows:
           }
           EOF
       - name: Get packages
-        script: flutter pub get
+        script: cd gym_app && flutter pub get
       - name: Generate code
-        script: dart run build_runner build --delete-conflicting-outputs
+        script: cd gym_app && dart run build_runner build --delete-conflicting-outputs
       - name: Build Android APK
-        script: flutter build apk --release
-      - name: Build iOS
-        script: flutter build ios --release --no-codesign
+        script: cd gym_app && flutter build apk --release
     artifacts:
-      - build/app/outputs/flutter-apk/*.apk
-      - build/ios/iphoneos/*.ipa
+      - gym_app/build/app/outputs/flutter-apk/*.apk
     publishing:
       email:
         recipients:

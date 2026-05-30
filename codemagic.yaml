@@ -26,9 +26,14 @@ workflows:
           flutter pub get
       - name: Add Firebase plugins to Gradle
         script: |
-          cd gym_app
-          sed -i '' 's/dependencies {/dependencies {\n        classpath '\''com.google.gms:google-services:4.4.2'\''/' android/build.gradle
-          echo "apply plugin: 'com.google.gms.google-services'" >> android/app/build.gradle
+          cd gym_app/android
+          if [ -f build.gradle.kts ]; then
+            perl -i -pe 's/plugins {/plugins {\n    id("com.google.gms.google-services") version "4.4.2" apply false/' build.gradle.kts
+            perl -i -pe 's/plugins {/plugins {\n    id("com.google.gms.google-services")/' app/build.gradle.kts
+          else
+            perl -i -pe "s/dependencies {/dependencies {\n        classpath 'com.google.gms:google-services:4.4.2'/" build.gradle
+            echo "apply plugin: 'com.google.gms.google-services'" >> app/build.gradle
+          fi
       - name: Generate firebase_options.dart
         script: |
           cd gym_app

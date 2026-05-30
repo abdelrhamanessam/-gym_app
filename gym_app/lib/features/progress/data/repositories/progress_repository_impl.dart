@@ -62,8 +62,4 @@ class ProgressRepositoryImpl implements ProgressRepository {
   }
 }
 
-@riverpod
-ProgressRepository progressRepository(ProgressRepositoryRef ref) {
-  final dataSource = ref.watch(progressRemoteDataSourceProvider);
-  return ProgressRepositoryImpl(dataSource);
-}
+// Provider moved to progress_providers.dart

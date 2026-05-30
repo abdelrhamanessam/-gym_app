@@ -123,8 +123,4 @@ class WorkoutRepositoryImpl implements WorkoutRepository {
   }
 }
 
-@riverpod
-WorkoutRepository workoutRepository(WorkoutRepositoryRef ref) {
-  final dataSource = ref.watch(workoutRemoteDataSourceProvider);
-  return WorkoutRepositoryImpl(dataSource);
-}
+// Provider moved to workout_providers.dart

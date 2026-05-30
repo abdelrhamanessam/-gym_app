@@ -21,9 +21,9 @@ workflows:
       - name: Create Flutter project structure
         script: |
           cd gym_app
-          if [ ! -d "android" ]; then
-            flutter create --project-name gym_app --org com.gym .
-          fi
+          rm -rf android ios
+          flutter create --project-name gym_app --org com.gym --platforms android .
+          flutter pub get
       - name: Add Firebase plugins to Gradle
         script: |
           cd gym_app

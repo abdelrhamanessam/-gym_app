@@ -22,8 +22,8 @@ WorkoutRepository workoutRepository(WorkoutRepositoryRef ref) {
 }
 
 @riverpod
-Future<List<Exercise>> exercisesProvider(
-  ExercisesProviderRef ref, {
+Future<List<Exercise>> exercises(
+  ExercisesRef ref, {
   MuscleGroup? muscleGroup,
 }) async {
   final repo = ref.watch(workoutRepositoryProvider);
@@ -31,8 +31,8 @@ Future<List<Exercise>> exercisesProvider(
 }
 
 @riverpod
-Future<Exercise?> exerciseDetailProvider(
-  ExerciseDetailProviderRef ref,
+Future<Exercise?> exerciseDetail(
+  ExerciseDetailRef ref,
   String id,
 ) async {
   final repo = ref.watch(workoutRepositoryProvider);
@@ -40,8 +40,8 @@ Future<Exercise?> exerciseDetailProvider(
 }
 
 @riverpod
-Future<List<WorkoutSession>> workoutSessionsProvider(
-  WorkoutSessionsProviderRef ref, {
+Future<List<WorkoutSession>> workoutSessions(
+  WorkoutSessionsRef ref, {
   DateTime? date,
   DateTime? startDate,
   DateTime? endDate,
@@ -56,16 +56,16 @@ Future<List<WorkoutSession>> workoutSessionsProvider(
 }
 
 @riverpod
-Future<List<WorkoutTemplate>> workoutTemplatesProvider(
-  WorkoutTemplatesProviderRef ref,
+Future<List<WorkoutTemplate>> workoutTemplates(
+  WorkoutTemplatesRef ref,
 ) async {
   final repo = ref.watch(workoutRepositoryProvider);
   return repo.getWorkoutTemplates('');
 }
 
 @riverpod
-Future<List<WorkoutProgram>> workoutProgramsProvider(
-  WorkoutProgramsProviderRef ref,
+Future<List<WorkoutProgram>> workoutPrograms(
+  WorkoutProgramsRef ref,
 ) async {
   final repo = ref.watch(workoutRepositoryProvider);
   return repo.getBuiltInPrograms();
@@ -149,8 +149,8 @@ class ActiveWorkout extends _$ActiveWorkout {
 }
 
 @riverpod
-Future<void> saveWorkoutSessionProvider(
-  SaveWorkoutSessionProviderRef ref,
+Future<void> saveWorkoutSession(
+  SaveWorkoutSessionRef ref,
   WorkoutSession session,
 ) async {
   final repo = ref.watch(workoutRepositoryProvider);
@@ -158,8 +158,8 @@ Future<void> saveWorkoutSessionProvider(
 }
 
 @riverpod
-Future<List<WorkoutHistory>> workoutHistoryProvider(
-  WorkoutHistoryProviderRef ref,
+Future<List<WorkoutHistory>> workoutHistory(
+  WorkoutHistoryRef ref,
 ) async {
   final repo = ref.watch(workoutRepositoryProvider);
   return repo.getWorkoutHistory('');

@@ -1,7 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:collection/collection.dart';
-import '../../../core/constants/firebase_constants.dart';
+import 'package:gym_app/core/constants/firebase_constants.dart';
+import 'package:gym_app/features/workout/domain/entities/exercise.dart';
 import '../models/exercise_model.dart';
 import '../models/workout_history_model.dart';
 import '../models/workout_program_model.dart';

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import '../../../core/constants/firebase_constants.dart';
+import 'package:gym_app/core/constants/firebase_constants.dart';
 import '../models/body_goal_model.dart';
 import '../models/body_measurement_model.dart';
 import '../models/progress_photo_model.dart';

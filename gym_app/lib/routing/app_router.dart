@@ -236,12 +236,12 @@ GoRouter appRouter(AppRouterRef ref) {
       GoRoute(
         path: '/gamification',
         name: 'gamification',
-        builder: (context, state) => const GamificationScreen(),
+        builder: (context, state) => GamificationScreen(userId: ''),
       ),
       GoRoute(
         path: '/achievements',
         name: 'achievements',
-        builder: (context, state) => const AchievementsScreen(),
+        builder: (context, state) => AchievementsScreen(userId: ''),
       ),
       GoRoute(
         path: '/admin',

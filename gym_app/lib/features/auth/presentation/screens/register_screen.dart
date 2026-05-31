@@ -38,7 +38,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen> {
       await ref.read(signUpProvider(
         email: _emailController.text.trim(),
         password: _passwordController.text,
-        name: _nameController.text.trim(),
+        displayName: _nameController.text.trim(),
       ).future);
       if (mounted) context.go('/');
     } catch (e) {

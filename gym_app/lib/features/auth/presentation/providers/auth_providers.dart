@@ -58,9 +58,9 @@ Future<void> signIn(SignInRef ref,
 Future<void> signUp(SignUpRef ref,
     {required String email,
     required String password,
-    required String name}) async {
+    required String displayName}) async {
   final repository = ref.watch(authRepositoryProvider);
-  await repository.signUpWithEmail(email, password, name);
+  await repository.signUpWithEmail(email, password, displayName);
 }
 
 @riverpod

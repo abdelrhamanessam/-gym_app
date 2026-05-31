@@ -64,7 +64,7 @@ class _NutritionDashboardScreenState
             children: [
               const SizedBox(height: 8),
               goalsAsync.when(
-                data: (goals) => _buildMacroRings(goals),
+                data: (goals) => _buildMacroRings(goals, summaryAsync),
                 loading: () => const Center(
                     child: Padding(
                   padding: EdgeInsets.all(32),
@@ -91,7 +91,7 @@ class _NutritionDashboardScreenState
                 data: (waterLogs) {
                   final totalWater =
                       waterLogs.fold<double>(0, (sum, w) => sum + w.amountMl);
-                  return _buildWaterTracker(totalWater);
+                  return _buildWaterTracker(totalWater, goalsAsync);
                 },
                 loading: () => const SizedBox(
                   height: 60,
@@ -155,7 +155,7 @@ class _NutritionDashboardScreenState
     );
   }
 
-  Widget _buildMacroRings(NutritionGoals goals) {
+  Widget _buildMacroRings(NutritionGoals goals, AsyncValue<DailySummary> summaryAsync) {
     return summaryAsync.when(
       data: (summary) {
         final calPercent =
@@ -215,7 +215,7 @@ class _NutritionDashboardScreenState
     );
   }
 
-  Widget _buildWaterTracker(double totalWater) {
+  Widget _buildWaterTracker(double totalWater, AsyncValue<NutritionGoals> goalsAsync) {
     return goalsAsync.when(
       data: (goals) {
         final goalMl = goals.dailyWaterMl;

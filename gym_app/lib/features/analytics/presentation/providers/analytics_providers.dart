@@ -254,7 +254,7 @@ class StrengthProgress extends _$StrengthProgress {
 }
 
 @riverpod
-class GoalPredictionProvider extends _$GoalPredictionProvider {
+class GoalPrediction extends _$GoalPrediction {
   @override
   Future<GoalPrediction> build() async {
     final userDoc = await FirebaseFirestore.instance

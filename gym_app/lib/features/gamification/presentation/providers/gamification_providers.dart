@@ -7,7 +7,7 @@ import '../../domain/entities/user_achievement.dart';
 part 'gamification_providers.g.dart';
 
 @riverpod
-class UserXpProvider extends _$UserXpProvider {
+class UserXp extends _$UserXp {
   @override
   Future<UserXp?> build(String userId) async {
     final repo = ref.watch(gamificationRepositoryProvider);
@@ -16,7 +16,7 @@ class UserXpProvider extends _$UserXpProvider {
 }
 
 @riverpod
-class AchievementsProvider extends _$AchievementsProvider {
+class Achievements extends _$Achievements {
   @override
   Future<List<Achievement>> build() async {
     final repo = ref.watch(gamificationRepositoryProvider);
@@ -25,7 +25,7 @@ class AchievementsProvider extends _$AchievementsProvider {
 }
 
 @riverpod
-class UserAchievementsProvider extends _$UserAchievementsProvider {
+class UserAchievements extends _$UserAchievements {
   @override
   Future<List<UserAchievement>> build(String userId) async {
     final repo = ref.watch(gamificationRepositoryProvider);
@@ -34,7 +34,7 @@ class UserAchievementsProvider extends _$UserAchievementsProvider {
 }
 
 @riverpod
-class LeaderboardProvider extends _$LeaderboardProvider {
+class Leaderboard extends _$Leaderboard {
   @override
   Future<List<Map<String, dynamic>>> build() async {
     final repo = ref.watch(gamificationRepositoryProvider);
@@ -43,7 +43,7 @@ class LeaderboardProvider extends _$LeaderboardProvider {
 }
 
 @riverpod
-class CheckAchievementsProvider extends _$CheckAchievementsProvider {
+class CheckAchievements extends _$CheckAchievements {
   @override
   Future<List<Achievement>> build(String userId) async {
     final repo = ref.watch(gamificationRepositoryProvider);

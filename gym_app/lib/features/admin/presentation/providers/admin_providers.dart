@@ -5,7 +5,7 @@ import 'package:gym_app/core/constants/firebase_constants.dart';
 part 'admin_providers.g.dart';
 
 @riverpod
-class AdminUsersProvider extends _$AdminUsersProvider {
+class AdminUsers extends _$AdminUsers {
   @override
   Future<List<Map<String, dynamic>>> build() async {
     final snapshot = await FirebaseFirestore.instance
@@ -37,7 +37,7 @@ class AdminUsersProvider extends _$AdminUsersProvider {
 }
 
 @riverpod
-class AdminFoodDatabaseProvider extends _$AdminFoodDatabaseProvider {
+class AdminFoodDatabase extends _$AdminFoodDatabase {
   @override
   Future<List<Map<String, dynamic>>> build() async {
     final snapshot = await FirebaseFirestore.instance
@@ -76,7 +76,7 @@ class AdminFoodDatabaseProvider extends _$AdminFoodDatabaseProvider {
 }
 
 @riverpod
-class AdminWorkoutProgramsProvider extends _$AdminWorkoutProgramsProvider {
+class AdminWorkoutPrograms extends _$AdminWorkoutPrograms {
   @override
   Future<List<Map<String, dynamic>>> build() async {
     final snapshot = await FirebaseFirestore.instance
@@ -115,7 +115,7 @@ class AdminWorkoutProgramsProvider extends _$AdminWorkoutProgramsProvider {
 }
 
 @riverpod
-class AdminNotificationsProvider extends _$AdminNotificationsProvider {
+class AdminNotifications extends _$AdminNotifications {
   @override
   Future<bool> build() => Future.value(true);
 
@@ -140,7 +140,7 @@ class AdminNotificationsProvider extends _$AdminNotificationsProvider {
 }
 
 @riverpod
-class IsAdminProvider extends _$IsAdminProvider {
+class IsAdmin extends _$IsAdmin {
   @override
   bool build() {
     return false;

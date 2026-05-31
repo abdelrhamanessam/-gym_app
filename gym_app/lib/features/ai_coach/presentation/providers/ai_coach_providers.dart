@@ -5,7 +5,7 @@ import '../../domain/entities/ai_advice.dart';
 part 'ai_coach_providers.g.dart';
 
 @riverpod
-class DailyAiAdviceProvider extends _$DailyAiAdviceProvider {
+class DailyAiAdvice extends _$DailyAiAdvice {
   @override
   Future<AiAdvice?> build(String userId, DateTime date) async {
     final repo = ref.watch(aiCoachRepositoryProvider);
@@ -14,7 +14,7 @@ class DailyAiAdviceProvider extends _$DailyAiAdviceProvider {
 }
 
 @riverpod
-class DailySummaryReportProvider extends _$DailySummaryReportProvider {
+class DailySummaryReport extends _$DailySummaryReport {
   @override
   Future<DailySummaryReport> build(String userId, DateTime date) async {
     final repo = ref.watch(aiCoachRepositoryProvider);
@@ -23,7 +23,7 @@ class DailySummaryReportProvider extends _$DailySummaryReportProvider {
 }
 
 @riverpod
-class AiCoachMessageProvider extends _$AiCoachMessageProvider {
+class AiCoachMessage extends _$AiCoachMessage {
   @override
   List<Map<String, dynamic>> build() {
     return [];

@@ -90,6 +90,8 @@ workflows:
         script: cd gym_app && flutter pub get
       - name: Generate code
         script: cd gym_app && dart run build_runner build --delete-conflicting-outputs
+      - name: Analyze all errors
+        script: cd gym_app && flutter analyze --no-fatal-infos --no-fatal-warnings
       - name: Build Android APK
         script: cd gym_app && flutter build apk --release
     artifacts:

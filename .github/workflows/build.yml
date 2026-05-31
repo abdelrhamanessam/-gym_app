@@ -19,7 +19,7 @@ jobs:
         working-directory: gym_app
       - run: dart run build_runner build --delete-conflicting-outputs
         working-directory: gym_app
-      - run: flutter build apk --debug
+      - run: flutter build apk --debug --dart-define=GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
         working-directory: gym_app
       - uses: actions/upload-artifact@v4
         with:

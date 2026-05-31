@@ -2,7 +2,7 @@ class ApiConstants {
   ApiConstants._();
 
   static const String baseUrl = 'https://api.gymai.app/v1';
-  static const String geminiApiKey = 'YOUR_GEMINI_API_KEY_HERE';
+  static const String geminiApiKey = String.fromEnvironment('GEMINI_API_KEY', defaultValue: 'YOUR_GEMINI_API_KEY_HERE');
   static const String geminiModel = 'gemini-2.0-flash';
 
   static const Duration connectTimeout = Duration(seconds: 15);

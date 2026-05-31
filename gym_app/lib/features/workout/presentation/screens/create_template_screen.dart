@@ -594,8 +594,8 @@ class _ExerciseConfigDialogState extends State<_ExerciseConfigDialog> {
 }
 
 @riverpod
-Future<void> saveWorkoutTemplateProvider(
-    SaveWorkoutTemplateProviderRef ref, WorkoutTemplate template) async {
+Future<void> saveWorkoutTemplate(
+    SaveWorkoutTemplateRef ref, WorkoutTemplate template) async {
   final repo = ref.watch(workoutRepositoryProvider);
   await repo.saveWorkoutTemplate(template);
 }

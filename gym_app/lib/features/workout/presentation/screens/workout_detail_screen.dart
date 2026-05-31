@@ -15,8 +15,8 @@ import '../providers/workout_providers.dart';
 part 'workout_detail_screen.g.dart';
 
 @riverpod
-Future<WorkoutSession?> workoutSessionDetailProvider(
-    WorkoutSessionDetailProviderRef ref, String id) async {
+Future<WorkoutSession?> workoutSessionDetail(
+    WorkoutSessionDetailRef ref, String id) async {
   final repo = ref.watch(workoutRepositoryProvider);
   return repo.getWorkoutSessionById(id);
 }

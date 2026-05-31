@@ -274,8 +274,8 @@ class _PhotoViewScreen extends StatelessWidget {
 }
 
 @riverpod
-Future<void> addPhotoProvider(
-    AddPhotoProviderRef ref, ProgressPhoto photo) async {
+Future<void> addPhoto(
+    AddPhotoRef ref, ProgressPhoto photo) async {
   final repo = ref.watch(progressRepositoryProvider);
   await repo.addProgressPhoto(photo);
 }

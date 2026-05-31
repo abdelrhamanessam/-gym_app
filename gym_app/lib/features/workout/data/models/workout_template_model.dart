@@ -29,8 +29,6 @@ class WorkoutTemplateModel with _$WorkoutTemplateModel {
     return WorkoutTemplateModel.fromJson({...data, 'id': doc.id});
   }
 
-  Map<String, dynamic> toFirestore() => toJson()..remove('id');
-
   factory WorkoutTemplateModel.fromDomain(WorkoutTemplate template) =>
       WorkoutTemplateModel(
         id: template.id,
@@ -45,6 +43,10 @@ class WorkoutTemplateModel with _$WorkoutTemplateModel {
         estimatedDuration: template.estimatedDuration,
         createdAt: template.createdAt.toIso8601String(),
       );
+}
+
+extension WorkoutTemplateModelX on WorkoutTemplateModel {
+  Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   WorkoutTemplate toDomain() => WorkoutTemplate(
         id: id,

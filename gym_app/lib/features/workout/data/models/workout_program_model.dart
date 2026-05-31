@@ -31,8 +31,6 @@ class WorkoutProgramModel with _$WorkoutProgramModel {
     return WorkoutProgramModel.fromJson({...data, 'id': doc.id});
   }
 
-  Map<String, dynamic> toFirestore() => toJson()..remove('id');
-
   factory WorkoutProgramModel.fromDomain(WorkoutProgram program) =>
       WorkoutProgramModel(
         id: program.id,
@@ -48,6 +46,10 @@ class WorkoutProgramModel with _$WorkoutProgramModel {
         isBuiltIn: program.isBuiltIn,
         createdAt: program.createdAt.toIso8601String(),
       );
+}
+
+extension WorkoutProgramModelX on WorkoutProgramModel {
+  Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   WorkoutProgram toDomain() => WorkoutProgram(
         id: id,

@@ -1,0 +1,266 @@
+// coverage:ignore-file
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
+
+part of 'water_log_model.dart';
+
+// **************************************************************************
+// FreezedGenerator
+// **************************************************************************
+
+T _$identity<T>(T value) => value;
+
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#adding-getters-and-methods-to-our-models');
+
+WaterLogModel _$WaterLogModelFromJson(Map<String, dynamic> json) {
+  return _WaterLogModel.fromJson(json);
+}
+
+/// @nodoc
+mixin _$WaterLogModel {
+  String get waterId => throw _privateConstructorUsedError;
+  String get userId => throw _privateConstructorUsedError;
+  @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+  Timestamp get date => throw _privateConstructorUsedError;
+  double get amountMl => throw _privateConstructorUsedError;
+  @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+  Timestamp get createdAt => throw _privateConstructorUsedError;
+
+  /// Serializes this WaterLogModel to a JSON map.
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+
+  /// Create a copy of WaterLogModel
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  $WaterLogModelCopyWith<WaterLogModel> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $WaterLogModelCopyWith<$Res> {
+  factory $WaterLogModelCopyWith(
+          WaterLogModel value, $Res Function(WaterLogModel) then) =
+      _$WaterLogModelCopyWithImpl<$Res, WaterLogModel>;
+  @useResult
+  $Res call(
+      {String waterId,
+      String userId,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      Timestamp date,
+      double amountMl,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      Timestamp createdAt});
+}
+
+/// @nodoc
+class _$WaterLogModelCopyWithImpl<$Res, $Val extends WaterLogModel>
+    implements $WaterLogModelCopyWith<$Res> {
+  _$WaterLogModelCopyWithImpl(this._value, this._then);
+
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
+
+  /// Create a copy of WaterLogModel
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? waterId = null,
+    Object? userId = null,
+    Object? date = null,
+    Object? amountMl = null,
+    Object? createdAt = null,
+  }) {
+    return _then(_value.copyWith(
+      waterId: null == waterId
+          ? _value.waterId
+          : waterId // ignore: cast_nullable_to_non_nullable
+              as String,
+      userId: null == userId
+          ? _value.userId
+          : userId // ignore: cast_nullable_to_non_nullable
+              as String,
+      date: null == date
+          ? _value.date
+          : date // ignore: cast_nullable_to_non_nullable
+              as Timestamp,
+      amountMl: null == amountMl
+          ? _value.amountMl
+          : amountMl // ignore: cast_nullable_to_non_nullable
+              as double,
+      createdAt: null == createdAt
+          ? _value.createdAt
+          : createdAt // ignore: cast_nullable_to_non_nullable
+              as Timestamp,
+    ) as $Val);
+  }
+}
+
+/// @nodoc
+abstract class _$$WaterLogModelImplCopyWith<$Res>
+    implements $WaterLogModelCopyWith<$Res> {
+  factory _$$WaterLogModelImplCopyWith(
+          _$WaterLogModelImpl value, $Res Function(_$WaterLogModelImpl) then) =
+      __$$WaterLogModelImplCopyWithImpl<$Res>;
+  @override
+  @useResult
+  $Res call(
+      {String waterId,
+      String userId,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      Timestamp date,
+      double amountMl,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      Timestamp createdAt});
+}
+
+/// @nodoc
+class __$$WaterLogModelImplCopyWithImpl<$Res>
+    extends _$WaterLogModelCopyWithImpl<$Res, _$WaterLogModelImpl>
+    implements _$$WaterLogModelImplCopyWith<$Res> {
+  __$$WaterLogModelImplCopyWithImpl(
+      _$WaterLogModelImpl _value, $Res Function(_$WaterLogModelImpl) _then)
+      : super(_value, _then);
+
+  /// Create a copy of WaterLogModel
+  /// with the given fields replaced by the non-null parameter values.
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? waterId = null,
+    Object? userId = null,
+    Object? date = null,
+    Object? amountMl = null,
+    Object? createdAt = null,
+  }) {
+    return _then(_$WaterLogModelImpl(
+      waterId: null == waterId
+          ? _value.waterId
+          : waterId // ignore: cast_nullable_to_non_nullable
+              as String,
+      userId: null == userId
+          ? _value.userId
+          : userId // ignore: cast_nullable_to_non_nullable
+              as String,
+      date: null == date
+          ? _value.date
+          : date // ignore: cast_nullable_to_non_nullable
+              as Timestamp,
+      amountMl: null == amountMl
+          ? _value.amountMl
+          : amountMl // ignore: cast_nullable_to_non_nullable
+              as double,
+      createdAt: null == createdAt
+          ? _value.createdAt
+          : createdAt // ignore: cast_nullable_to_non_nullable
+              as Timestamp,
+    ));
+  }
+}
+
+/// @nodoc
+@JsonSerializable()
+class _$WaterLogModelImpl implements _WaterLogModel {
+  const _$WaterLogModelImpl(
+      {required this.waterId,
+      required this.userId,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      required this.date,
+      this.amountMl = 250,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      required this.createdAt});
+
+  factory _$WaterLogModelImpl.fromJson(Map<String, dynamic> json) =>
+      _$$WaterLogModelImplFromJson(json);
+
+  @override
+  final String waterId;
+  @override
+  final String userId;
+  @override
+  @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+  final Timestamp date;
+  @override
+  @JsonKey()
+  final double amountMl;
+  @override
+  @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+  final Timestamp createdAt;
+
+  @override
+  String toString() {
+    return 'WaterLogModel(waterId: $waterId, userId: $userId, date: $date, amountMl: $amountMl, createdAt: $createdAt)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$WaterLogModelImpl &&
+            (identical(other.waterId, waterId) || other.waterId == waterId) &&
+            (identical(other.userId, userId) || other.userId == userId) &&
+            (identical(other.date, date) || other.date == date) &&
+            (identical(other.amountMl, amountMl) ||
+                other.amountMl == amountMl) &&
+            (identical(other.createdAt, createdAt) ||
+                other.createdAt == createdAt));
+  }
+
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  int get hashCode =>
+      Object.hash(runtimeType, waterId, userId, date, amountMl, createdAt);
+
+  /// Create a copy of WaterLogModel
+  /// with the given fields replaced by the non-null parameter values.
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$WaterLogModelImplCopyWith<_$WaterLogModelImpl> get copyWith =>
+      __$$WaterLogModelImplCopyWithImpl<_$WaterLogModelImpl>(this, _$identity);
+
+  @override
+  Map<String, dynamic> toJson() {
+    return _$$WaterLogModelImplToJson(
+      this,
+    );
+  }
+}
+
+abstract class _WaterLogModel implements WaterLogModel {
+  const factory _WaterLogModel(
+      {required final String waterId,
+      required final String userId,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      required final Timestamp date,
+      final double amountMl,
+      @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+      required final Timestamp createdAt}) = _$WaterLogModelImpl;
+
+  factory _WaterLogModel.fromJson(Map<String, dynamic> json) =
+      _$WaterLogModelImpl.fromJson;
+
+  @override
+  String get waterId;
+  @override
+  String get userId;
+  @override
+  @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+  Timestamp get date;
+  @override
+  double get amountMl;
+  @override
+  @JsonKey(fromJson: timestampFromJson, toJson: timestampToJson)
+  Timestamp get createdAt;
+
+  /// Create a copy of WaterLogModel
+  /// with the given fields replaced by the non-null parameter values.
+  @override
+  @JsonKey(includeFromJson: false, includeToJson: false)
+  _$$WaterLogModelImplCopyWith<_$WaterLogModelImpl> get copyWith =>
+      throw _privateConstructorUsedError;
+}

@@ -28,6 +28,9 @@ class TemplateExerciseModel with _$TemplateExerciseModel {
         order: exercise.order,
       );
 
+}
+
+extension TemplateExerciseModelX on TemplateExerciseModel {
   TemplateExercise toDomain() => TemplateExercise(
         exerciseId: exerciseId,
         exerciseName: exerciseName,

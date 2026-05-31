@@ -27,6 +27,9 @@ class ExerciseModel with _$ExerciseModel {
     return ExerciseModel.fromJson({...data, 'id': doc.id});
   }
 
+}
+
+extension ExerciseModelX on ExerciseModel {
   Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   Exercise toDomain() => Exercise(

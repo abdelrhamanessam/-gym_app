@@ -26,8 +26,6 @@ class BodyGoalModel with _$BodyGoalModel {
     return BodyGoalModel.fromJson({...data, 'id': doc.id});
   }
 
-  Map<String, dynamic> toFirestore() => toJson()..remove('id');
-
   factory BodyGoalModel.fromDomain(BodyGoal g) => BodyGoalModel(
         id: g.id,
         userId: g.userId,
@@ -38,6 +36,10 @@ class BodyGoalModel with _$BodyGoalModel {
         targetDate: g.targetDate?.toIso8601String(),
         goal: g.goal.name,
       );
+}
+
+extension BodyGoalModelX on BodyGoalModel {
+  Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   BodyGoal toDomain() => BodyGoal(
         id: id,

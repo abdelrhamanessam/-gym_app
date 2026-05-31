@@ -24,8 +24,6 @@ class ProgressPhotoModel with _$ProgressPhotoModel {
     return ProgressPhotoModel.fromJson({...data, 'id': doc.id});
   }
 
-  Map<String, dynamic> toFirestore() => toJson()..remove('id');
-
   factory ProgressPhotoModel.fromDomain(ProgressPhoto p) => ProgressPhotoModel(
         id: p.id,
         userId: p.userId,
@@ -34,6 +32,10 @@ class ProgressPhotoModel with _$ProgressPhotoModel {
         sideUrl: p.sideUrl,
         backUrl: p.backUrl,
       );
+}
+
+extension ProgressPhotoModelX on ProgressPhotoModel {
+  Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   ProgressPhoto toDomain() => ProgressPhoto(
         id: id,

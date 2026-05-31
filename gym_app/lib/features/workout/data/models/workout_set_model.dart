@@ -29,6 +29,9 @@ class WorkoutSetModel with _$WorkoutSetModel {
         notes: set.notes,
       );
 
+}
+
+extension WorkoutSetModelX on WorkoutSetModel {
   WorkoutSet toDomain() => WorkoutSet(
         setNumber: setNumber,
         reps: reps,

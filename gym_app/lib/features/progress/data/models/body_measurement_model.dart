@@ -30,8 +30,6 @@ class BodyMeasurementModel with _$BodyMeasurementModel {
     return BodyMeasurementModel.fromJson({...data, 'id': doc.id});
   }
 
-  Map<String, dynamic> toFirestore() => toJson()..remove('id');
-
   factory BodyMeasurementModel.fromDomain(BodyMeasurement m) =>
       BodyMeasurementModel(
         id: m.id,
@@ -47,6 +45,10 @@ class BodyMeasurementModel with _$BodyMeasurementModel {
         legCm: m.legCm,
         notes: m.notes,
       );
+}
+
+extension BodyMeasurementModelX on BodyMeasurementModel {
+  Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   BodyMeasurement toDomain() => BodyMeasurement(
         id: id,

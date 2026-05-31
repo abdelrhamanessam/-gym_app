@@ -29,8 +29,6 @@ class WorkoutSessionModel with _$WorkoutSessionModel {
     return WorkoutSessionModel.fromJson({...data, 'id': doc.id});
   }
 
-  Map<String, dynamic> toFirestore() => toJson()..remove('id');
-
   factory WorkoutSessionModel.fromDomain(WorkoutSession session) =>
       WorkoutSessionModel(
         id: session.id,
@@ -46,6 +44,10 @@ class WorkoutSessionModel with _$WorkoutSessionModel {
         isCompleted: session.isCompleted,
         createdAt: session.createdAt.toIso8601String(),
       );
+}
+
+extension WorkoutSessionModelX on WorkoutSessionModel {
+  Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   WorkoutSession toDomain() => WorkoutSession(
         id: id,

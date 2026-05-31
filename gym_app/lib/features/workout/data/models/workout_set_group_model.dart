@@ -25,6 +25,9 @@ class WorkoutSetGroupModel with _$WorkoutSetGroupModel {
         restSeconds: group.restSeconds,
       );
 
+}
+
+extension WorkoutSetGroupModelX on WorkoutSetGroupModel {
   WorkoutSetGroup toDomain() => WorkoutSetGroup(
         exerciseId: exerciseId,
         exerciseName: exerciseName,

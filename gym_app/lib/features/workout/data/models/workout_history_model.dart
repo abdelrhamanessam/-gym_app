@@ -28,8 +28,6 @@ class WorkoutHistoryModel with _$WorkoutHistoryModel {
     return WorkoutHistoryModel.fromJson({...data, 'id': doc.id});
   }
 
-  Map<String, dynamic> toFirestore() => toJson()..remove('id');
-
   factory WorkoutHistoryModel.fromDomain(WorkoutHistory history) =>
       WorkoutHistoryModel(
         id: history.id,
@@ -41,6 +39,10 @@ class WorkoutHistoryModel with _$WorkoutHistoryModel {
         volumeKg: history.volumeKg,
         createdAt: history.createdAt.toIso8601String(),
       );
+}
+
+extension WorkoutHistoryModelX on WorkoutHistoryModel {
+  Map<String, dynamic> toFirestore() => toJson()..remove('id');
 
   WorkoutHistory toDomain() => WorkoutHistory(
         id: id,

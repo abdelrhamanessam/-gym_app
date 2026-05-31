@@ -9,6 +9,7 @@ import '../datasources/workout_remote_datasource.dart';
 import '../models/workout_history_model.dart';
 import '../models/workout_program_model.dart';
 import '../models/workout_session_model.dart';
+import '../models/exercise_model.dart';
 import '../models/workout_template_model.dart';
 
 class WorkoutRepositoryImpl implements WorkoutRepository {

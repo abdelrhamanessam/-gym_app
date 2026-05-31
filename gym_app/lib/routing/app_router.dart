@@ -236,12 +236,18 @@ GoRouter appRouter(AppRouterRef ref) {
       GoRoute(
         path: '/gamification',
         name: 'gamification',
-        builder: (context, state) => GamificationScreen(userId: ''),
+        builder: (context, state) {
+          final userId = ref.watch(authStateProvider).valueOrNull?.uid ?? '';
+          return GamificationScreen(userId: userId);
+        },
       ),
       GoRoute(
         path: '/achievements',
         name: 'achievements',
-        builder: (context, state) => AchievementsScreen(userId: ''),
+        builder: (context, state) {
+          final userId = ref.watch(authStateProvider).valueOrNull?.uid ?? '';
+          return AchievementsScreen(userId: userId);
+        },
       ),
       GoRoute(
         path: '/admin',

@@ -240,12 +240,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                       side: const BorderSide(color: AppColors.border),
                       foregroundColor: AppColors.textPrimary,
                     ),
-                    icon: Image.asset(
-                      'assets/google_logo.png',
-                      width: 24,
-                      height: 24,
-                      errorBuilder: (_, __, ___) => const Icon(Icons.g_mobiledata, size: 24),
-                    ),
+                    icon: const Icon(Icons.g_mobiledata, size: 24),
                     label: const Text(
                       'Sign in with Google',
                       style: TextStyle(fontFamily: 'Poppins'),

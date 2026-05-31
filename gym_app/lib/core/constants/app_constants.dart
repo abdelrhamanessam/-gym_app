@@ -3,7 +3,7 @@ class AppConstants {
 
   static const String appName = 'GymAI';
   static const String appVersion = '1.0.0';
-  static const String packageName = 'com.gymai.app';
+  static const String packageName = 'com.gym.app';
 
   static const double defaultWeightKg = 70.0;
   static const double defaultHeightCm = 175.0;

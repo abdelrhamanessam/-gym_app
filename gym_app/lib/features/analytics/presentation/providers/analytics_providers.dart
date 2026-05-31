@@ -3,7 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:gym_app/core/constants/firebase_constants.dart';
-import '../../domain/entities/goal_prediction.dart';
+import '../../domain/entities/goal_prediction.dart' as entities;
 
 part 'analytics_providers.g.dart';
 
@@ -256,7 +256,7 @@ class StrengthProgress extends _$StrengthProgress {
 @riverpod
 class GoalPrediction extends _$GoalPrediction {
   @override
-  Future<GoalPrediction> build() async {
+  Future<entities.GoalPrediction> build() async {
     final userDoc = await FirebaseFirestore.instance
         .collection(FirebaseConstants.usersCollection)
         .doc('current')
@@ -278,7 +278,7 @@ class GoalPrediction extends _$GoalPrediction {
         ? ((currentWeight - currentWeight) / totalDiff).abs().clamp(0.0, 1.0)
         : 0.0;
 
-    return GoalPrediction(
+    return entities.GoalPrediction(
       currentWeight: currentWeight,
       goalWeight: goalWeight,
       targetDate: targetDate,

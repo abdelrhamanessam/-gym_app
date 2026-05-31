@@ -1,6 +1,6 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import '../../data/repositories/gamification_repository_impl.dart';
-import '../../domain/entities/user_xp.dart';
+import '../../domain/entities/user_xp.dart' as entities;
 import '../../domain/entities/achievement.dart';
 import '../../domain/entities/user_achievement.dart';
 
@@ -9,7 +9,7 @@ part 'gamification_providers.g.dart';
 @riverpod
 class UserXp extends _$UserXp {
   @override
-  Future<UserXp?> build(String userId) async {
+  Future<entities.UserXp?> build(String userId) async {
     final repo = ref.watch(gamificationRepositoryProvider);
     return repo.getUserXp(userId);
   }

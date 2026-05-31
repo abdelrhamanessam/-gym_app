@@ -184,7 +184,7 @@ class _GoalCard extends StatelessWidget {
                     ),
                     Text(
                       '${goal.targetWeightKg!.toStringAsFixed(1)} kg',
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.w600,
                         color: color,

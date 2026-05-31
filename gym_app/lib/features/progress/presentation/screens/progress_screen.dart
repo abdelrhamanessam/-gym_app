@@ -89,7 +89,7 @@ class ProgressScreen extends ConsumerWidget {
                         ? '${latest.bodyFatPercent!.toStringAsFixed(1)}%'
                         : '--',
                     label: 'Body\nFat',
-                    icon: Icons.percentage_rounded,
+                    icon: Icons.percent_rounded,
                   ),
                   StatItem(
                     value: latest.leanBodyMassKg != null

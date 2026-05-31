@@ -6,6 +6,7 @@ import 'package:gym_app/core/widgets/loading_widget.dart';
 import 'package:gym_app/core/widgets/error_widget.dart';
 import '../../domain/entities/workout_set_group.dart';
 import '../../domain/entities/workout_template.dart';
+import '../../domain/entities/exercise.dart';
 import '../providers/workout_providers.dart';
 
 class WorkoutTemplatesScreen extends ConsumerWidget {

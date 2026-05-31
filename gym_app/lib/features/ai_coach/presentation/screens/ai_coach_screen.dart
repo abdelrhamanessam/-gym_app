@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:gym_app/core/theme/app_colors.dart';
 import 'package:gym_app/core/utils/date_utils.dart';
 import '../providers/ai_coach_providers.dart';
+import '../../data/repositories/ai_coach_repository_impl.dart';
 import '../widgets/ai_chat_bubble.dart';
 
 class AiCoachScreen extends ConsumerStatefulWidget {

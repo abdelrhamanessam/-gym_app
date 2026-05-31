@@ -6,6 +6,7 @@ import 'package:uuid/uuid.dart';
 import 'package:gym_app/core/theme/app_colors.dart';
 import '../../domain/entities/water_log.dart';
 import '../../domain/entities/nutrition_goals.dart';
+import '../../domain/entities/daily_summary.dart';
 import '../providers/nutrition_providers.dart';
 import '../widgets/animated_ring_card.dart';
 import '../widgets/meal_tile.dart';

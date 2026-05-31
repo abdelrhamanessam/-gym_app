@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import 'package:gym_app/core/theme/app_colors.dart';
+import 'package:gym_app/core/widgets/error_widget.dart';
 import '../../domain/entities/exercise.dart';
 import '../../domain/entities/workout_program.dart';
 import '../../domain/entities/workout_set_group.dart';
@@ -42,16 +43,16 @@ class WorkoutProgramDetailScreen extends ConsumerWidget {
   }
 }
 
-class _ProgramDetailContent extends StatefulWidget {
+class _ProgramDetailContent extends ConsumerStatefulWidget {
   final WorkoutProgram program;
 
   const _ProgramDetailContent({required this.program});
 
   @override
-  State<_ProgramDetailContent> createState() => _ProgramDetailContentState();
+  ConsumerState<_ProgramDetailContent> createState() => _ProgramDetailContentState();
 }
 
-class _ProgramDetailContentState extends State<_ProgramDetailContent> {
+class _ProgramDetailContentState extends ConsumerState<_ProgramDetailContent> {
   int _currentWeek = 1;
 
   List<WorkoutTemplate> get _currentWeekTemplates {
@@ -217,7 +218,7 @@ class _ProgramDetailContentState extends State<_ProgramDetailContent> {
               restSeconds: e.restSeconds,
             ))
         .toList();
-    context.read(activeWorkoutProvider.notifier)
+    ref.read(activeWorkoutProvider.notifier)
         .startWorkout(template.name, exercises);
     context.push('/workout/active');
   }
@@ -383,7 +384,7 @@ class _WeekDayCard extends StatelessWidget {
         ),
         subtitle: template != null
             ? Text(
-                '${template.exercises.length} exercises \u2022 ${template.estimatedDuration} min',
+                '${template?.exercises.length ?? 0} exercises \u2022 ${template?.estimatedDuration ?? 0} min',
                 style: const TextStyle(
                   fontSize: 12,
                   color: AppColors.textSecondary,
